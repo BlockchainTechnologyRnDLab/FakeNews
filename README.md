@@ -1,3 +1,3 @@
 # FakeNews
 
-[github](www.github.com)
+[github-설명](www.github.com)
