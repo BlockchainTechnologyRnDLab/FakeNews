@@ -32,7 +32,7 @@ H[Junaed Younus Khan, Md. Tawkat Islam Khondaker, Anindya Iqbal, Sadia Afroz] A 
 
 [Bashar Al Asaad, Mad ̆alina Eras ̆ ̧cu] A Tool for Fake News Detection, 2018 20th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC), 2018
 
-[Bjarte Botnevik, Eirik Sakariassen, Vinay Setty] BRENDA: Browser Extension for Fake News Detection, SIGIR’20 Virtual Event, 2020
+H[Bjarte Botnevik, Eirik Sakariassen, Vinay Setty] BRENDA: Browser Extension for Fake News Detection, SIGIR’20 Virtual Event, 2020
 
 [Natali Ruchansky, Sungyong Seo, Yan Liu] CSI: A Hybrid Deep Model for Fake News Detection, 
 
