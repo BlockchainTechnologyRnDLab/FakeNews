@@ -1,18 +1,19 @@
+
 [오주원] 블록체인을 활용한 웹크롤링봇 시스템 설계, 동의대학교 공학석사 학위논문, 2020
 
 H[좌희정] 자동화기반의 가짜 뉴스 탐지를 위한 연구 분석, 한국융합학회논문지 Vol. 10. No.7, pp.15-21, 2019
 
 [이동호] 딥러닝 기법을 이용한 가짜뉴스 탐지, 2018년 춘계학술발표대회 논문집 Vol.25. No.1, 2018
 
-[Terry Traylor, Jeremy Straub, Gurmeet, Nicholas Snell] Classifying Fake News Articles Using Natural Language Processing to Identify In-Article Attribution as a Supervised Learning Estimator, 2019 IEEE 13th ICSC, 2019
+[Terry Traylor] Classifying Fake News Articles Using Natural Language Processing to Identify In-Article Attribution as a Supervised Learning Estimator, 2019 IEEE 13th ICSC, 2019
 
-[Stephane Schwarz, Antonio Theˆophilo, Anderson Rocha] EMET: EMBEDDINGS FROM MULTILINGUAL-ENCODER TRANSFORMER FORFAKE NEWS DETECTION, 2020 IEEE ICASSP, 2020
+[Stephane Schwarz] EMET: EMBEDDINGS FROM MULTILINGUAL-ENCODER TRANSFORMER FORFAKE NEWS DETECTION, 2020 IEEE ICASSP, 2020
 
-[Peng Qi, Juan Cao1..] Exploiting Multi-domain Visual Informationfor Fake News Detection, 2019 IEEE ICDM, 2019
+[Peng Qi] Exploiting Multi-domain Visual Informationfor Fake News Detection, 2019 IEEE ICDM, 2019
 
-[Mohamed K. Elhadad, Kin Fun Li, Fayez Gebali] Fake News Detection on Social Media: A Systematic Survey, 2019 IEEE, 2019
+[Mohamed K. Elhadad] Fake News Detection on Social Media: A Systematic Survey, 2019 IEEE, 2019
 
-[Konstantinos Demestichas, Konstantina Remoundou, Evgenia Adamopoulou] Food for Thought: FightingFake News and OnlineDisinformation, IEEE Computer Society, 2020
+[Konstantinos Demestichas] Food for Thought: FightingFake News and OnlineDisinformation, IEEE Computer Society, 2020
 
 [Rohit Kumar Kaliyar] Fake News Detection Using A Deep Neural Network, 2018 IEEE 4th ICCCA , 2018
 
@@ -20,64 +21,66 @@ H[좌희정] 자동화기반의 가짜 뉴스 탐지를 위한 연구 분석, �
 
 [Syed Ishfaq Manzoor, Dr Jimmy Singla, Nikita] Fake News Detection Using Machine Learning approaches: A systematic Review, Proceedings of the Third International Conference on Trends in Electronics and Informatics (ICOEI 2019), 2019
 
-[Sunidhi Sharma, Dilip Kumar Sharma] Fake News Detection: A long way to go, 2019 4th International Conference on Information Systems and Computer Networks (ISCON), 2019
+[Sunidhi Sharma] Fake News Detection: A long way to go, 2019 4th International Conference on Information Systems and Computer Networks (ISCON), 2019
 
-[현윤진, 김남규] 뉴스와 소셜 데이터를 활용한텍스트 기반 가짜 뉴스 탐지 방법론, 한국전자거래학회지 Vol.23. No.4, pp.19-39, 2018
+[현윤진] 뉴스와 소셜 데이터를 활용한텍스트 기반 가짜 뉴스 탐지 방법론, 한국전자거래학회지 Vol.23. No.4, pp.19-39, 2018
 
-H[Junaed Younus Khan, Md. Tawkat Islam Khondaker, Anindya Iqbal, Sadia Afroz] A Benchmark Study on Machine Learning Methods for Fake NewsDetection,
+H[Junaed Younus Khan, Md] A Benchmark Study on Machine Learning Methods for Fake NewsDetection,
 
-[Arjun Roy, Kingshuk Basak, Asif Ekbal, Pushpak Bhattacharyya] A Deep Ensemble Framework for Fake NewsDetection and Classification, 
+[Arjun Roy, Kingshuk Basak] A Deep Ensemble Framework for Fake NewsDetection and Classification, 
 
-[Tanik Saikh, Arkadipta De, Asif Ekbal, Pushpak Bhattacharyya] A Deep Learning Approach for Automatic Detection of Fake News, 
+[Tanik Saikh] A Deep Learning Approach for Automatic Detection of Fake News, 
 
-[Bashar Al Asaad, Mad ̆alina Eras ̆ ̧cu] A Tool for Fake News Detection, 2018 20th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC), 2018
+[Bashar Al Asaad] A Tool for Fake News Detection, 2018 20th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC), 2018
 
-H[Bjarte Botnevik, Eirik Sakariassen, Vinay Setty] BRENDA: Browser Extension for Fake News Detection, SIGIR’20 Virtual Event, 2020
+H[Bjarte Botnevik] BRENDA: Browser Extension for Fake News Detection, SIGIR’20 Virtual Event, 2020
 
-[Natali Ruchansky, Sungyong Seo, Yan Liu] CSI: A Hybrid Deep Model for Fake News Detection, 
+[Natali Ruchansky] CSI: A Hybrid Deep Model for Fake News Detection, 
 
-[Kashyap Popat1, Subhabrata Mukherjee2, Andrew Yates, Gerhard Weikum] DeClarE: Debunking Fake News and False Claimsusing Evidence-Aware Deep Learning, 
+[Kashyap Popat1] DeClarE: Debunking Fake News and False Claimsusing Evidence-Aware Deep Learning, 
 
-[Jiawei Zhang, Bowen Dong, Philip S. Yu] Deep Diffusive Neural Network based Fake NewsDetection from Heterogeneous Social Networks, 2019 IEEE International Conference on Big Data (Big Data), 2019
+[Jiawei Zhang] Deep Diffusive Neural Network based Fake NewsDetection from Heterogeneous Social Networks, 2019 IEEE International Conference on Big Data (Big Data), 2019
 
-[Xishuang Dong, Uboho Victor, Shanta Chowdhury, Lijun Qian] Deep Two-path Semi-supervised Learning for Fake News Detection, 
+[Xishuang Dong] Deep Two-path Semi-supervised Learning for Fake News Detection, 
 
-H[Harika Kudarvalli, Dr. Jinan Fiaidhi] Detecting Fake News using Machine Learning Algorithms
+H[Harika Kudarvalli] Detecting Fake News using Machine Learning Algorithms
 
-[Abdullah-All-Tanvir, Ehesas Mia Mahir, Saima Akhter, Mohammad Rezwanul Huq] Detecting Fake News using Machine Learning and Deep Learning Algorithms, 2019 IEEE 2019 7th International Conference on Smart Computing &Communications (ICSCC), 2019
+[Abdullah-All-Tanvir] Detecting Fake News using Machine Learning and Deep Learning Algorithms, 2019 IEEE 2019 7th International Conference on Smart Computing &Communications (ICSCC), 2019
 
-[Seunghyun Yoon, Kunwoo Park, Joongbo Shin, Hongjun Lim, Seungpil Won, Meeyoung Cha, Kyomin Jung] Detecting Incongruity between News Headline and Body Textvia a Deep Hierarchical Encoder, The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19), 2019
+[Seunghyun Yoon] Detecting Incongruity between News Headline and Body Textvia a Deep Hierarchical Encoder, The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19), 2019
 
-[Kyeong-hwan Kim, Chang-sung Jeong] Fake News Detection System using ArticleAbstraction, 2019 IEEE, 2019
+[Kyeong-hwan Kim] Fake News Detection System using ArticleAbstraction, 2019 IEEE, 2019
 
-[Chaitra K Hiramath, Prof. G.C Deshpande] Fake News Detection Using Deep Learning Techniques, 2019 1st International Conference on Advances in Information Technology, 2019
+[Chaitra K Hiramath] Fake News Detection Using Deep Learning Techniques, 2019 1st International Conference on Advances in Information Technology, 2019
 
-[Anmol Uppal, Vipul Sachdeva, Seema Sharma] Fake news detection using discourse segment structure analysis, 2020 10th International Conference on Cloud Computing, Data Science & Engineering (Confluence), 2020
+[Anmol Uppal] Fake news detection using discourse segment structure analysis, 2020 10th International Conference on Cloud Computing, Data Science & Engineering (Confluence), 2020
 
-[Simon Lorent, Ashwin Itoo] Fake News Detection Using Machine Learning, University Of Li`egeFaculty Of Applied Science Belgium Accademic Year 2018-2019
+[Simon Lorent] Fake News Detection Using Machine Learning, University Of Li`egeFaculty Of Applied Science Belgium Accademic Year 2018-2019
 
-[Pedro Faustini, Thiago Covoes] Fake News Detection Using One-Class Classification, 2019 IEEE
+[Pedro Faustini] Fake News Detection Using One-Class Classification, 2019 IEEE
 
-[Aswini Thota, Priyanka Tilak, Simrat Ahluwalia, Nibrat Lohia] Fake News Detection: A Deep Learning Approach, SMU Data Science Review Vol. 1. No.3, 2018
+[Aswini Thota] Fake News Detection: A Deep Learning Approach, SMU Data Science Review Vol. 1. No.3, 2018
 
-[Oluwaseun Ajao, Deepayan Bhowmik, Shahrzad Zargari] Fake News Identification on Twitter with Hybrid CNN and RNN Models, Copenhagen Denmark SMSociety, 2018
+[Oluwaseun Ajao] Fake News Identification on Twitter with Hybrid CNN and RNN Models, Copenhagen Denmark SMSociety, 2018
 
 [Jiawei Zhang, Bowen Dong, Philip S. Yu] FAKEDETECTOR: Effective Fake News Detectionwith Deep Diffusive Neural Network, 2019
 
-[Rohit Kumar Kaliyar, Anurag Goswami, Pratik Narang, Soumendu Sinha] FNDNet- A deep convolutional neural network for fake news detection, 2020 Cognitive Systems Research 61 32-44, 2020
+[Rohit Kumar Kaliyar] FNDNet- A deep convolutional neural network for fake news detection, 2020 Cognitive Systems Research 61 32-44, 2020
 
-[Jooyeon Kim, Dongkwan Kim, Alice Oh] Homogeneity-Based Transmissive Process to Model True andFalse News in Social Networks, WSDM ’19, February 11–15, 2019, Melbourne, VIC, Australia Session 6: Networks and Social Behavior
+[Jooyeon Kim] Homogeneity-Based Transmissive Process to Model True andFalse News in Social Networks, WSDM ’19, February 11–15, 2019, Melbourne, VIC, Australia Session 6: Networks and Social Behavior
 
 [Nicole O’Brien] Machine Learning for Detection ofFake News, Department of Electrical Engineering and Computer Science, 2018
 
-[Adrien Benamira, Benjamin Devillers...] Semi-Supervised Learning and Graph NeuralNetworks for Fake News Detection, 2019 IEEE/ACM International Conference Advances in Social Networks Analysis and Mining, 2019
+[Adrien Benamira] Semi-Supervised Learning and Graph NeuralNetworks for Fake News Detection, 2019 IEEE/ACM International Conference Advances in Social Networks Analysis and Mining, 2019
 
-[Julio C. S. Reis, Andre Correia,Fabrıcio Murai, Adriano Veloso, Fabrıcio Benevenuto] Supervised Learning forFake News Detection, IEEE Affective Computing and Sentiment Analysis, 2019
+[Julio C. S. Reis] Supervised Learning forFake News Detection, IEEE Affective Computing and Sentiment Analysis, 2019
 
-[Yang Yang, Lei Zheng...] TI-CNN: Convolutional Neural Networks for FakeNews Detection, 
+[Yang Yang] TI-CNN: Convolutional Neural Networks for FakeNews Detection, 
 
-[Xishuang Dong, Uboho Victor, Lijun Qian] Two-path Deep Semi-supervised Learning forTimely Fake News Detection, 
+[Xishuang Dong] Two-path Deep Semi-supervised Learning forTimely Fake News Detection, 
 
-[Seyedmehdi Hosseinimotlagh, Evangelos E. Papalexakis] Unsupervised Content-Based Identification of Fake News Articles with Tensor Decomposition Ensembles, 
+[Seyedmehdi Hosseinimotlagh] Unsupervised Content-Based Identification of Fake News Articles with Tensor Decomposition Ensembles, 
 
-[Shuo Yang, Kai Shu...] Unsupervised Fake News Detection on Social Media: A Generative Approach
+[Shuo Yang] Unsupervised Fake News Detection on Social Media: A Generative Approach
+
+
