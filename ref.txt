@@ -75,7 +75,7 @@ H[Harika Kudarvalli] Detecting Fake News using Machine Learning Algorithms
 
 [Julio C. S. Reis] Supervised Learning forFake News Detection, IEEE Affective Computing and Sentiment Analysis, 2019
 
-[Yang Yang] TI-CNN: Convolutional Neural Networks for FakeNews Detection, 
+H[Yang Yang] TI-CNN: Convolutional Neural Networks for FakeNews Detection, 
 
 [Xishuang Dong] Two-path Deep Semi-supervised Learning forTimely Fake News Detection, 
 
