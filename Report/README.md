@@ -27,8 +27,9 @@
 
 나.	기술 및 표준화 현황
 *	제품 및 기술 현황
-*	표준화 현황
-  -[W3C Machine Learning for the Web CG (WebML CG)](https://webmachinelearning.github.io/)
+
+* 표준화 현황
+  - [W3C Machine Learning for the Web CG (WebML CG)](https://webmachinelearning.github.io/)
     + [Web Neural Network API](https://webmachinelearning.github.io/webnn/): 신경망 추론 하드웨어 가속기 전용 하위 레벨 API
     + [Model Loader API](https://webmachinelearning.github.io/model-loader/): 학습된 사용자 정의 머신 러닝 모델을 로드하는 API 
 
