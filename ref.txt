@@ -35,7 +35,7 @@ H[Junaed Younus Khan, Md] A Benchmark Study on Machine Learning Methods for Fake
 
 H[Bjarte Botnevik] BRENDA: Browser Extension for Fake News Detection, SIGIR’20 Virtual Event, 2020
 
-[Natali Ruchansky] CSI: A Hybrid Deep Model for Fake News Detection, 
+H[Natali Ruchansky] CSI: A Hybrid Deep Model for Fake News Detection, 
 
 [Kashyap Popat1] DeClarE: Debunking Fake News and False Claimsusing Evidence-Aware Deep Learning, 
 
