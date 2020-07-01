@@ -22,12 +22,15 @@
 ### 2. 인공지능 신뢰성 분석 
 
 가.	서비스 현황 사례 
--	문제점 : 기술적
--	문제점 해결방안
+*	문제점 : 기술적
+*	문제점 해결방안
 
 나.	기술 및 표준화 현황
--	제품 및 기술 현황
--	표준화 현황 
+*	제품 및 기술 현황
+*	표준화 현황
+  -[W3C Machine Learning for the Web CG (WebML CG)](https://webmachinelearning.github.io/)
+    + [Web Neural Network API](https://webmachinelearning.github.io/webnn/): 신경망 추론 하드웨어 가속기 전용 하위 레벨 API
+    + [Model Loader API](https://webmachinelearning.github.io/model-loader/): 학습된 사용자 정의 머신 러닝 모델을 로드하는 API 
 
 ### 3. 인공지능 신뢰성 프레임워크
 
@@ -42,11 +45,18 @@
 다.	인공지능 신뢰성 표준 적용 서비스
 - 가짜뉴스 서비스: 신뢰가능한 가짜뉴스 인공지능 시스템 구조 및 기능 제안 
 
-~~-	IoT 응용 신뢰성 서비스: 엣지 단말에 신뢰성 인공지능 구조 및 기능 제안 ~~
+~~-	IoT 응용 신뢰성 서비스: 엣지 단말에 신뢰성 인공지능 구조 및 기능 제안~~
+
 ~~-	멀티미디어 응용 신뢰성 서비스 : 음성/이미지 인공지능 서비스 구조에 신뢰성 기능 지원~~
 
 
 ## To Do (가짜뉴스 관련 정리)
 
-1. 가짜뉴스의 정의
-2. 가짜뉴스 판별을 위한 방안
+* 가짜뉴스의 정의
+* 가짜뉴스 판별 방법 정리
+* 가짜뉴스 판별 알고리즘 
+  - supervised learning (지도 학습)
+  - unsupervised learning (비지도 학습)
+  - _오픈소스 기반 가짜뉴스 판별 알고리즘 제안_  
+  
+
