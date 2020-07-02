@@ -11,3 +11,9 @@
 
 ## 가짜뉴스 감지 시스템과 신뢰성
 
+
+
+## Reference
+
+* [AI Hub](http://www.aihub.or.kr)
+
