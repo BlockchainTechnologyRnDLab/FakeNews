@@ -37,7 +37,7 @@ H[Bjarte Botnevik] BRENDA: Browser Extension for Fake News Detection, SIGIR’20
 
 H[Natali Ruchansky] CSI: A Hybrid Deep Model for Fake News Detection, 
 
-[Kashyap Popat1] DeClarE: Debunking Fake News and False Claimsusing Evidence-Aware Deep Learning, 
+H[Kashyap Popat1] DeClarE: Debunking Fake News and False Claimsusing Evidence-Aware Deep Learning, 
 
 [Jiawei Zhang] Deep Diffusive Neural Network based Fake NewsDetection from Heterogeneous Social Networks, 2019 IEEE International Conference on Big Data (Big Data), 2019
 
