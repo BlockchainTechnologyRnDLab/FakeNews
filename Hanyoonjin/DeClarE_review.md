@@ -55,7 +55,10 @@ Max Planck Institute for Informatics, Saarbrucken, Germany
         * Snopes : 100
         * PolitiFact : 100
         * NewsTrust : 300
-        * SEMEVAL : 100
+        * SEMEVAL : 100   
+        
+     ![img](https://images.deepai.org/converted-papers/1809.06416/x1.png "신경망 모델")
+
   - **(검토자 의견) 알고리즘이 논문에서 정의하는 가짜 뉴스를 검출하기에 적합한지 검토 의견** 
 * **오픈소스 공개 여부**     
    #### X
