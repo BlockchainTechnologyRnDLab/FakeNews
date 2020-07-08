@@ -21,7 +21,7 @@ H[좌희정] 자동화기반의 가짜 뉴스 탐지를 위한 연구 분석, �
 
 [Syed Ishfaq Manzoor, Dr Jimmy Singla, Nikita] Fake News Detection Using Machine Learning approaches: A systematic Review, Proceedings of the Third International Conference on Trends in Electronics and Informatics (ICOEI 2019), 2019
 
-[Sunidhi Sharma] Fake News Detection: A long way to go, 2019 4th International Conference on Information Systems and Computer Networks (ISCON), 2019
+P[Sunidhi Sharma] Fake News Detection: A long way to go, 2019 4th International Conference on Information Systems and Computer Networks (ISCON), 2019
 
 [현윤진] 뉴스와 소셜 데이터를 활용한텍스트 기반 가짜 뉴스 탐지 방법론, 한국전자거래학회지 Vol.23. No.4, pp.19-39, 2018
 
