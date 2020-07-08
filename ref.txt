@@ -39,7 +39,7 @@ H[Natali Ruchansky] CSI: A Hybrid Deep Model for Fake News Detection,
 
 H[Kashyap Popat1] DeClarE: Debunking Fake News and False Claimsusing Evidence-Aware Deep Learning, 
 
-[Jiawei Zhang] Deep Diffusive Neural Network based Fake NewsDetection from Heterogeneous Social Networks, 2019 IEEE International Conference on Big Data (Big Data), 2019
+H[Jiawei Zhang] Deep Diffusive Neural Network based Fake NewsDetection from Heterogeneous Social Networks, 2019 IEEE International Conference on Big Data (Big Data), 2019
 
 [Xishuang Dong] Deep Two-path Semi-supervised Learning for Fake News Detection, 
 
@@ -82,5 +82,3 @@ H[Yang Yang] TI-CNN: Convolutional Neural Networks for FakeNews Detection,
 [Seyedmehdi Hosseinimotlagh] Unsupervised Content-Based Identification of Fake News Articles with Tensor Decomposition Ensembles, 
 
 [Shuo Yang] Unsupervised Fake News Detection on Social Media: A Generative Approach
-
-H [김도우] Doc2Vec과 Word2Vec을 활용한 Convolutional Neural Network 기반 한국어 신문 기사 분류
