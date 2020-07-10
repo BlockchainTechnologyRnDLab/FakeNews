@@ -29,7 +29,7 @@ H[Junaed Younus Khan, Md] A Benchmark Study on Machine Learning Methods for Fake
 
 [Arjun Roy, Kingshuk Basak] A Deep Ensemble Framework for Fake NewsDetection and Classification, 
 
-[Tanik Saikh] A Deep Learning Approach for Automatic Detection of Fake News, 
+H[Tanik Saikh] A Deep Learning Approach for Automatic Detection of Fake News, 
 
 [Bashar Al Asaad] A Tool for Fake News Detection, 2018 20th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC), 2018
 
