@@ -82,3 +82,5 @@ H[Yang Yang] TI-CNN: Convolutional Neural Networks for FakeNews Detection,
 [Seyedmehdi Hosseinimotlagh] Unsupervised Content-Based Identification of Fake News Articles with Tensor Decomposition Ensembles, 
 
 [Shuo Yang] Unsupervised Fake News Detection on Social Media: A Generative Approach
+
+H[좌희정] exBAKE: Automatic Fake News Detection Model Based on Bidirectional Encoder Representations from Transformers (BERT)
