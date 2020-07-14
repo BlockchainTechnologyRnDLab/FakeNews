@@ -21,7 +21,7 @@ Department of Computer Science and Engineering, Government College of Engineerin
   
 * 연구 요약
   1. [P ́erez-Rosas 외 연구진](https://www.aclweb.org/anthology/C18-1287/)의 연구가 제공한 Fake News AMT(AmazonMechanical Turk 수집) / Celebrity news 데이터셋을 제공받음
-  2. AMT 데이터셋은 사업, 교육, 기술, 엔터테인먼트, 스포츠 등 정치 포함 7가지의 다른 영역을 다룸
+  2. AMT 데이터셋은 사업, 교육, 기술, 엔터테인먼트, 스포츠 등 정치 포함 다른 영역을 다룸
       - 여러 도메인의 진짜뉴스를 기반으로 가짜뉴스를 수동으로 생성하여 실험
       - ABCNews, CNN, USAToday, New York, Times, FoxNews, Bloomberg, and CNET 등 미국의 주류 웹사이트에서 수집
   3. Celebrity news 데이터셋은 연예계 뉴스를 다룸
@@ -79,7 +79,33 @@ Department of Computer Science and Engineering, Government College of Engineerin
   3. 여러 도메인의 데이터로 학습 vs 하나의 도메인의 데이터로 학습 (표3)
       - 어떤 영역이든 하나의 도메인의 데이터로 학습했을 때의 정확도가 더 낮음
 
-표4
+| Dataset | System | Model | Test Accuracy(%) |
+|---|---|---|---|
+|FakeNews AMT|Proposed|Model 1|77.08|
+|FakeNews AMT|Proposed|Model 2|83.30|
+|FakeNews AMT|P ́erez-Rosas|Linear SVM|74|
+|Celebrity|Proposed|Model 1|76.53|
+|Celebrity|Proposed|Model 2|79|
+|Celebrity|P ́erez-Rosas|Linear SVM|76|
+###### 표1. 각각의 데이터셋을 이용한 테스트 결과   
+
+| Training | Testing | Accuracy(%) |
+|---|---|---|
+|FakeNews AMT|Celebrity|54.3|
+|Celebrity|FakeNews AMT|68.5|
+###### 표2. Model 2를 이용한 서로 다른 데이터셋으로 학습/테스트 
+
+| Domain | Exp. a || Exp. b ||
+|---|---|---|---|---|
+|| **Model 1** | **Model 2** | **Model 1** | **Model 2** |
+|Business|74.75|78.75|63.56|68.56|
+|Education|77.25|91.25|65.65|70.65|
+|Technology|76.22|88.75|64.36|5.35|
+|Politics|73.75|88.75|64.27|69.22|
+|Entertainment|68.25|76.25|65.89|71.2|
+|Sports|70.75|73.75|67.86|71.45|
+###### 표3. 여러 도메인의 데이터로 학습 vs 하나의 도메인의 데이터로 학습
+
 
   
 * **오픈소스 공개 여부**     
@@ -93,19 +119,4 @@ Department of Computer Science and Engineering, Government College of Engineerin
   - 논문 결과 (정량적 또는 정성적 결과)
     - 위의 표
   
-| Models | F1 | AGR | DSG | DSC | UNR |
-|---|---|---|---|---|---|
-|Majority vote|0.210|0.0|0.0|0.0|0.839|
-|TalosComb|0.582|0.539|0.035|0.760|0.994|
-|TalosTree|0.570|0.520|0.003|0.762|0.994|
-|TalosCNN|0.308|0.258|0.092|0.0|0.882|
-|Athene|0.604|0.487|0.151|0.780|0.996
-|UCLMR|0.583|0.479|0.114|0.747|0.989|
-|featMLP|0.607|0.530|0.151|0.766|0.982|
-|stackLSTM|0.609|0.501|0.180|0.757|0.995|
-|BERT|0.656|0.651|0.145|0.839|0.989|
-|BAKE|0.734|0.667|0.463|0.822|0.986|
-|exBAKE|0.746|0.684|0.501|0.813|0.988|
-|Upper bound|0.754|0.588|0.667|0.765|0.997|
-
   - **(검토자 의견) 논문 결과에 대한 객관성에 대한 검토의견**    
