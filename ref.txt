@@ -51,7 +51,7 @@ H[Harika Kudarvalli] Detecting Fake News using Machine Learning Algorithms
 
 [Kyeong-hwan Kim] Fake News Detection System using ArticleAbstraction, 2019 IEEE, 2019
 
-[Chaitra K Hiramath] Fake News Detection Using Deep Learning Techniques, 2019 1st International Conference on Advances in Information Technology, 2019
+P [Chaitra K Hiramath] Fake News Detection Using Deep Learning Techniques, 2019 1st International Conference on Advances in Information Technology, 2019
 
 [Anmol Uppal] Fake news detection using discourse segment structure analysis, 2020 10th International Conference on Cloud Computing, Data Science & Engineering (Confluence), 2020
 
