@@ -17,9 +17,9 @@ H[좌희정] 자동화기반의 가짜 뉴스 탐지를 위한 연구 분석, �
 
 [Rohit Kumar Kaliyar] Fake News Detection Using A Deep Neural Network, 2018 IEEE 4th ICCCA , 2018
 
-P [Anmol Uppal, Vipul Sachdeva, Seema Sharma] Fake news detection using discourse segment structure analysis, 2020 IEEE 10th International Conference on Cloud Computing, Data Science & Engineering (Confluence), 2020
+P[Anmol Uppal, Vipul Sachdeva, Seema Sharma] Fake news detection using discourse segment structure analysis, 2020 IEEE 10th International Conference on Cloud Computing, Data Science & Engineering (Confluence), 2020
 
-P [Syed Ishfaq Manzoor, Dr Jimmy Singla, Nikita] Fake News Detection Using Machine Learning approaches: A systematic Review, Proceedings of the Third International Conference on Trends in Electronics and Informatics (ICOEI 2019), 2019
+P[Syed Ishfaq Manzoor, Dr Jimmy Singla, Nikita] Fake News Detection Using Machine Learning approaches: A systematic Review, Proceedings of the Third International Conference on Trends in Electronics and Informatics (ICOEI 2019), 2019
 
 P[Sunidhi Sharma] Fake News Detection: A long way to go, 2019 4th International Conference on Information Systems and Computer Networks (ISCON), 2019
 
