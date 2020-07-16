@@ -31,17 +31,23 @@
 |Jiawei Zhang, Bowen Dong, Philip S. Yu, 2019|Comparing with existing systems, Bi-Class Inference Results in 14.5% higher and 40% higher in multi- Class Inference.|A deep diffusive network model to learn the depictions of news articles, subjects and creators.|
 |Ruchansky et al. , 2017|Positive correlation of 0.867 for Weibo, 0.631 for Twitter.|Propose the CSI model which consists of three modules.|
 |Monther Aldwairi, Ali Alwahedi|99.4% accuracy|Clickbait Detection using Logistic Classifier|
+|Traylor et al. ,2019|Classifier Accuracy: 0.69 Overall Classifier Error:0.31.|ML-classification for large fake newsdocuments with one extraction feature.|
+|Oshikawa et al. ,2018|Maximum accuracy in 94.4% using GCN model|Comparison of existing fake news detection models|
+|Gurav et al. ,2019|Series of methods accomplished by Machine Leaning|Pure NLP perspective towards false news detection|
+|Agarwalla et al. ,2019|Accuracy in Naïve Bayes classifier with lid stone smoothing is 83% and in Naïve Bayes (without lid
+stone smoothing) is 74%.|An algorithm have been explored that can distinguish the difference between the fake and true news|
+|Zellers et al. ,2019|Grover-Large yields 78% accuracy, 92% when dataset is increased.|Investigated the threats posed by adversaries seeking to spread disinformation and the possibilities of machine generated fake news.|
+|Sivasangar i V et al. ,2018|Precision: 0.86 F1-score: 0.86|Rumor Detection by lever maturing the setting going before a tweet with a consecutive classifier|
+|O'Brien et al. ,2018|Accuracy: 93.5% ± 0.2.|Deep neural networks to capture steady differences in the language of fake and real news: signatures of exaggeration and other forms of rhetoric| 
+|Shu et al. ,2017|Studying existing literature in two segments: detection and characterization.|Datasets, evaluation metrics, and promising future ways in fake news detection discussed.|
+|Silva et al. ,2019|ANN achieving 75% accuracy|An amalgamation of classic techniques with neural network|
+|Dong et al. ,2019|Detect fake news from PHEME datasets using labeled data and unlabeled data.|Deep semi-supervised learning model by constructing two-path CNN|
+|Yang et al. ,2019|88.063% accuracy|Soft labels are used to fine-tune NLI models, BERT, and the Decomposable Attention model. NLI models are trained independently and ensemble with a BERT model to define the soft labels.|
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+
 
 * 논문에서 학습에 사용되는 데이터
   - 데이터의 양 및 취득 방법(또는 경로)
