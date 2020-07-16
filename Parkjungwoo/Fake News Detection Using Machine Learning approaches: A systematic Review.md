@@ -27,21 +27,6 @@ Phagwara Punjab University. India
  4. Content cue based methods (콘텐츠 기반)
  5. Non text cue based methods (비언어 기반)
 
-<가짜뉴스 탐지 방법-표>
-
-|Fake News|Fake news detection Method|| 
-|  Type   |Linguistic Modeling|Deceptive|Clustering|Predictive Modeling|Content Cues|Non-Text Cues|| 
-|---------|-------------------|---------|----------|-------------------|------------|-------------||
-|Visual-based|NO|NO|NO|NO|NO|YES||
-|User Based|NO|NO|NO|YES|YES|YES||
-|User Post Based|YES|YES|YES|YES|NO|YES||
-|Social Network Based|NO|NO|NO|NO|YES|NO||
-|Knowledge Based|NO|NO|YES|NO|NO|NO||
-|Style Based|YES|NO|NO|YES|YES|NO||
-|Stance Based|NO|NO|NO|NO|NO|NO||
-
-  정확도 : 63~70% 
-
 * 논문에서 학습에 사용되는 데이터
   - 데이터의 양 및 취득 방법(또는 경로)
    트위터 API : DMOZ
@@ -79,6 +64,20 @@ Phagwara Punjab University. India
   자신들이 제안하는 가짜뉴스 탐지방법을 제시하고 (5가지), FakeNews를 탐지하기 위한 여러 논문들을 열거 해 놓음. 
    
   - 논문 결과 (정량적 또는 정성적 결과)
+    <가짜뉴스 탐지 방법-표>
+  |Fake News|Fake news detection Method|| 
+  |  Type   |Linguistic Modeling|Deceptive|Clustering|Predictive Modeling|Content Cues|Non-Text Cues|| 
+  |---------|-------------------|---------|----------|-------------------|------------|-------------||
+  |Visual-based|NO|NO|NO|NO|NO|YES||
+  |User Based|NO|NO|NO|YES|YES|YES||
+  |User Post Based|YES|YES|YES|YES|NO|YES||
+  |Social Network Based|NO|NO|NO|NO|YES|NO||
+  |Knowledge Based|NO|NO|YES|NO|NO|NO||
+  |Style Based|YES|NO|NO|YES|YES|NO||
+  |Stance Based|NO|NO|NO|NO|NO|NO||
+
+  정확도 : 63~70% 
+  
   - **(검토자 의견) 논문 결과에 대한 객관성에 대한 검토의견** 
 
 * 관련연구: 논문에서 기술하는 관련 연구 부분 중 검토필요가 있는 것은 일반 논문의 검토와 같은 수준의 논문 리뷰를 하는 것으로 
