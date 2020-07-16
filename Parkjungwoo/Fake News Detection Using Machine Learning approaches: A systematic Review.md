@@ -1,4 +1,4 @@
-#Fake News Detection Using Machine Learning approaches: A systematic Review
+# Fake News Detection Using Machine Learning approaches: A systematic Review
 
 * 논문 저자 정보 (이름, 소속)   
 Syed Ishfaq Manzoor, Dr Jimmy Singla, Nikita 
