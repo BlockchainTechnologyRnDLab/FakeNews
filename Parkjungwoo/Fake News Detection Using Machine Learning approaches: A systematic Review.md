@@ -58,10 +58,10 @@ Phagwara Punjab University. India
   - 논문 결과 (정량적 또는 정성적 결과)
     <가짜뉴스 탐지 방법-표>
     
-|Fake News|Fake news detection Method||
+|Fake News|Fake news detection Method||||||
 |  Type   |Linguistic Modeling|Deceptive|Clustering|Predictive Modeling|Content Cues|Non-Text Cues|
-|------|---|---|---|
-|악의적으로 거짓 뉴스|FALSE|BAD|YES|
+|------|---|---|---|---|---|---|
+|Visual-based|NO|NO|NO|NO|NO|YES|
     
     
 |Fake News|Fake news detection Method|| 
