@@ -13,22 +13,7 @@
 
 |AUTHOR|OUTCOME|CONCLUSION/TECHNIQUE USED|
 |------|---|---|
-|Monu
-Waskale,
-Prof.
-Pritesh
-Jain, 2019|GRU-2 can
-identify bits of
-gossip with
-exactness 83.9%
-for twitter within
-12-hours.|Rational investigation of
-large portion of existing
-techniques identified
-from the earlier bits of
-gossip using GRU-2 and
-Tanh-RNN classifier for
-comparison.|
+|Monu Waskale, Prof.Pritesh Jain, 2019|GRU-2 can identify bits of gossip with exactness 83.9% for twitter within 12-hours.|Rational investigation of large portion of existing techniques identified from the earlier bits of gossip using GRU-2 and Tanh-RNN classifier for comparison.|
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
 
