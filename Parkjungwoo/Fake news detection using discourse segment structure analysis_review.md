@@ -34,8 +34,7 @@
 |Traylor et al. ,2019|Classifier Accuracy: 0.69 Overall Classifier Error:0.31.|ML-classification for large fake newsdocuments with one extraction feature.|
 |Oshikawa et al. ,2018|Maximum accuracy in 94.4% using GCN model|Comparison of existing fake news detection models|
 |Gurav et al. ,2019|Series of methods accomplished by Machine Leaning|Pure NLP perspective towards false news detection|
-|Agarwalla et al. ,2019|Accuracy in Naïve Bayes classifier with lid stone smoothing is 83% and in Naïve Bayes (without lid
-stone smoothing) is 74%.|An algorithm have been explored that can distinguish the difference between the fake and true news|
+|Agarwalla et al. ,2019|Accuracy in Naïve Bayes classifier with lid stone smoothing is 83% and in Naïve Bayes (without lidstone smoothing) is 74%.|An algorithm have been explored that can distinguish the difference between the fake and true news|
 |Zellers et al. ,2019|Grover-Large yields 78% accuracy, 92% when dataset is increased.|Investigated the threats posed by adversaries seeking to spread disinformation and the possibilities of machine generated fake news.|
 |Sivasangar i V et al. ,2018|Precision: 0.86 F1-score: 0.86|Rumor Detection by lever maturing the setting going before a tweet with a consecutive classifier|
 |O'Brien et al. ,2018|Accuracy: 93.5% ± 0.2.|Deep neural networks to capture steady differences in the language of fake and real news: signatures of exaggeration and other forms of rhetoric| 
