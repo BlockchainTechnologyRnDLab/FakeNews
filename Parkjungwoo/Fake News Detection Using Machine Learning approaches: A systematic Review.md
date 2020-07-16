@@ -28,6 +28,7 @@ Phagwara Punjab University. India
  5. Non text cue based methods (비언어 기반)
 
 <가짜뉴스 탐지 방법-표>
+
 |Fake News|Fake news detection Method|| 
 |  Type   |Linguistic Modeling|Deceptive|Clustering|Predictive Modeling|Content Cues|Non-Text Cues|| 
 |---------|-------------------|---------|----------|-------------------|------------|-------------||
@@ -38,6 +39,7 @@ Phagwara Punjab University. India
 |Knowledge Based|NO|NO|YES|NO|NO|NO||
 |Style Based|YES|NO|NO|YES|YES|NO||
 |Stance Based|NO|NO|NO|NO|NO|NO||
+
   정확도 : 63~70% 
 
 * 논문에서 학습에 사용되는 데이터
