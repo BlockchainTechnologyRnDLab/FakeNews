@@ -16,13 +16,10 @@
 |------|---|---|---|
 |악의적으로 거짓 뉴스|FALSE|BAD|YES|
 |가짜 뉴스|FALSE|Unknown|YES|
-
-    
-풍자 뉴스             Unknown Not Bad  YES
-잘못된 정보            FALSE  BAD      Unknown  
-사라진 정보            FALSE  Unknown  Unknown
-소문                  Unknown Unknown Unknown
-
+|풍자 뉴스|Unknown|Not Bad|YES|
+|잘못된 정보| FALSE|BAD| Unknown|
+|사라진 정보|FALSE|Unknown|Unknown|
+|소문|Unknown|Unknown|Unknown|
 
 |AUTHOR|OUTCOME|CONCLUSION/TECHNIQUE USED|
 |------|---|---|
