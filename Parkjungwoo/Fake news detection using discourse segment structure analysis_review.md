@@ -6,12 +6,7 @@
 
 * 논문에서 정의하고 있는 가짜뉴스
   - 단순히 거짓 뉴스, 대중을 오해 하기위해 기존 또는 온라인 뉴스매체를 통해 고의적인 오보
-
-* 가짜뉴스 탐지방법
-   1. 지식기반탐지 : 뉴스기사에 제시된 유익한 내용
-   2. 스타일기반탐지 : 작문스타일과 언어 내용의 패턴
-   3. 소셜 콘텍스트 모델 : 뉴스의 전파 패턴, 새로운 뉴스 생성자와 전파 기반 기술의 관계 신뢰도
-
+  
 ||진위|의도|뉴스|
 |------|---|---|---|
 |악의적으로 거짓 뉴스|FALSE|BAD|YES|
@@ -20,6 +15,11 @@
 |잘못된 정보| FALSE|BAD| Unknown|
 |사라진 정보|FALSE|Unknown|Unknown|
 |소문|Unknown|Unknown|Unknown|
+
+* 가짜뉴스 탐지방법
+   1. 지식기반탐지 : 뉴스기사에 제시된 유익한 내용
+   2. 스타일기반탐지 : 작문스타일과 언어 내용의 패턴
+   3. 소셜 콘텍스트 모델 : 뉴스의 전파 패턴, 새로운 뉴스 생성자와 전파 기반 기술의 관계 신뢰도
 
 * 가짜뉴스 탐지를 위한 다양한 방법론(2016년 이후)
 
@@ -51,28 +51,34 @@
 |Shuo Yang et al., 2019|Graphical model is built taking into account reliability of the news and credibility score of the user. 75.9% max. Accuracy accomplished on LIAR dataset.|Unsupervised method is investigated. Opinion is extracted from hierarchy social engagement information acquired from social media users..Reality and credibility is considered by an efficient Gibbs-sampling method.|
 |Zhou et al.,2018|Models so far possess a greater possibility to misclassify fake news that tampers with facts as well as under-written real news articles|Simply looking into Linguistic aspects is not enough for fake news detection.|
 |Álvaro and Lara,2019|93% accuracy with superior metrics compared to other deep learning models|BERT, LSTM and Convolutional Neural Network models are trained based merely on textual features.|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-
-
 
 * 논문에서 학습에 사용되는 데이터
   - 데이터의 양 및 취득 방법(또는 경로)
+   취득 경로 : Kaggle.com, Buzzfeed, PolitiFact
+   데이터의 양 : 교육용 6398개의 문서
+  
   - 데이터 전처리 방법
+   1. 담론의존성 파싱 접근법, 유사한 의존성 트리구조로 문서를 나뉨
+   2. 수집된 데이터 세트 영어 이외의 모든 문자와 중지단어를 제거
+   3. 모든 문자를 소문자로 변환 
+      
   -  **(검토자 의견) 데이터 객관성 여부에 대한 검토 의견**  
 * 논문에서 사용하는 알고리즘  
-  - 사용한 머신러닝 알고리즘 종류 
-  - 학습 방식 (지도학습, 비지도학습, 강화학습)
+  - 사용한 머신러닝 알고리즘 종류
+    Google : WORD2VEC
+    ELU(비선형활성화 함수)
+  - 학습 방식 : 비지도학습 
   - 신경망을 사용할 경우 네트워크 내용
-  - **(검토자 의견) 알고리즘이 논문에서 정의하는 가짜 뉴스를 검출하기에 적합한지 검토 의견** 
+  
 * **오픈소스 공개 여부** 
+   X
 * 논문의 평가
   - 논문에서 주장하는 내용
-    가짜뉴스 탐지의 기존 방법론을 검토하고, 자동으로 탐지방법을 제안하고 구현
+    가짜뉴스 탐지의 기존 방법론을 검토하고, 담론의존성 파싱 접근법으로 뉴스 맥락분석과 관련된 중요 설명,
+    담론의존성 접근법과는 달리 또다른 문법적 구조 트리가 있을 수 있다고 주장.
     
   - 논문 결과 (정량적 또는 정성적 결과)
-  - **(검토자 의견) 논문 결과에 대한 객관성에 대한 검토의견** 
+    데이터를 WORD2VEC과 ELU를 사용하여 학습한 결과 제안된 모델 탐지율 : 74.62% 
+   
 
-* 관련연구: 논문에서 기술하는 관련 연구 부분 중 검토필요가 있는 것은 일반 논문의 검토와 같은 수준의 논문 리뷰를 하는 것으로 
-확장하기 위한 것으로 규정
 
