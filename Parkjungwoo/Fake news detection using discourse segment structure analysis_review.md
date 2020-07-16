@@ -45,10 +45,8 @@
 |Monti et al.,2019|More than 93% accuracy achieved by automatic fake news detection model built on geometric deeplearning.|The underlying core algorithms allow for a fusion of dissimilar data such as content, profile, activity of a user, social graph and propagation pattern of news, which is achieved by generalizing CNN to graphs.|
 |Ajao et al.,2018|82% accuracy via both text and images by automatic identification of features within Twitter posts|A hybrid deep learning model of LSTM and CNN models is used.|
 |Thota et al. ,2018|94.21% accuracy. The Dense Neural Network beats existing model architectures by 2.5%.|A finely tuned TF-IDF Dense neural network architecture to predict the stance between a given pair of headline and article body.|
-|Helmstetter, Heiko Paulheim ,2018|F1 score of 0.9 achieved|Trustworthy or untrustworthy source are used to automatically
-label the data during collection, and train a classifier on this dataset.|
-|Atodiresei et al. ,2018|Tweet score can be 1000, -500 or in [-50,100] User score can be in [0,12]|Credibility score from
-hashtag sentiments, emoji sentiments, text sentiments and namedentity recognition. Higher the credibility score, higher the trust|
+|Helmstetter, Heiko Paulheim ,2018|F1 score of 0.9 achieved|Trustworthy or untrustworthy source are used to automaticallylabel the data during collection, and train a classifier on this dataset.|
+|Atodiresei et al. ,2018|Tweet score can be 1000, -500 or in [-50,100] User score can be in [0,12]|Credibility score fromhashtag sentiments, emoji sentiments, text sentiments and namedentity recognition. Higher the credibility score, higher the trust|
 |Hamid Karimi, Jiliang Tang ,2019|82% accuracy|Hierarchical Discourse level structural data analysis for fake newsdetection. A structure is trained on the dataset, quantifiable properties of which are used for classification process in the model.|
 |Shuo Yang et al., 2019|Graphical model is built taking into account reliability of the news and credibility score of the user. 75.9% max. Accuracy accomplished on LIAR dataset.|Unsupervised method is investigated. Opinion is extracted from hierarchy social engagement information acquired from social media users..Reality and credibility is considered by an efficient Gibbs-sampling method.|
 |Zhou et al.,2018|Models so far possess a greater possibility to misclassify fake news that tampers with facts as well as under-written real news articles|Simply looking into Linguistic aspects is not enough for fake news detection.|
