@@ -6,7 +6,7 @@ Phagwara Punjab University. India
 04/23/2019
 
 * 논문에서 가짜뉴스를 검출하려는 뉴스 종류
- 소셜 미디어 네트워킹 사이트(Facebook, Twitter)의 게시물
+ - 소셜 미디어 네트워킹 사이트(Facebook, Twitter)의 게시물
 
 * 논문에서 정의하는 소셜미디어 게시물 데이터 유형
  - TEXT 형식의 많은 포스트
