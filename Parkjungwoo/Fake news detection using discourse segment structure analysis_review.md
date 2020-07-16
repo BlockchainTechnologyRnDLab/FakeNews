@@ -12,16 +12,12 @@
    2. 스타일기반탐지 : 작문스타일과 언어 내용의 패턴
    3. 소셜 콘텍스트 모델 : 뉴스의 전파 패턴, 새로운 뉴스 생성자와 전파 기반 기술의 관계 신뢰도
 
-||AUTHOR|OUTCOME|CONCLUSION/TECHNIQUE USED|
+||진위|의도|뉴스|
 |------|---|---|---|
-|Monu Waskale, Prof.Pritesh Jain, 2019|GRU-2 can identify bits of gossip with exactness 83.9% for twitter within 12-hours.|Rational investigation of large portion of existing techniques identified from the earlier bits of gossip using GRU-2 and Tanh-RNN classifier for comparison.|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|악의적으로 거짓 뉴스|FALSE|BAD|YES|
+|가짜 뉴스|FALSE|Unknown|YES|
 
-    ||진위|의도|뉴스|
-    |------|---|---|
-    |악의적으로 거짓 뉴스|FALSE|BAD|YES|
-    |가짜 뉴스|FALSE|  Unknown|  YES|
+    
 풍자 뉴스             Unknown Not Bad  YES
 잘못된 정보            FALSE  BAD      Unknown  
 사라진 정보            FALSE  Unknown  Unknown
