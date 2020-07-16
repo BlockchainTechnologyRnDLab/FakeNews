@@ -1,6 +1,6 @@
 # Fake news detection using discourse segment structure analysis
 * 논문 저자 정보 (이름, 소속)
- Anmol Uppal, Vipul Sachdeva, Seema Sharma, INDIA, Amity University Noida University
+ - Anmol Uppal, Vipul Sachdeva, Seema Sharma, INDIA, Amity University Noida University
 
 * 논문에서 가짜뉴스를 검출하려는 뉴스 종류
 소셜 Context, 뉴스 Content Model, 가짜뉴스 탐지
