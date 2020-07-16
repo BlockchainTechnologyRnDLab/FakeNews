@@ -56,7 +56,8 @@ Phagwara Punjab University. India
   자신들이 제안하는 가짜뉴스 탐지방법을 제시하고 (5가지), FakeNews를 탐지하기 위한 여러 논문들을 열거 해 놓음. 
    
   - 논문 결과 (정량적 또는 정성적 결과)
-    <가짜뉴스 탐지 방법-표>
+    
+    - 가짜뉴스 탐지 방법-표
     
 |Fake News|Fake news detection Method|
 |  Type   |Linguistic Modeling|Deceptive|Clustering|Predictive Modeling|Content Cues|Non-Text Cues|
@@ -69,16 +70,6 @@ Phagwara Punjab University. India
 |Style Based|YES|NO|NO|YES|YES|NO|
 |Stance Based|NO|NO|NO|NO|NO|NO| 
     
-|Fake News|Fake news detection Method|| 
-|  Type   |Linguistic Modeling|Deceptive|Clustering|Predictive Modeling|Content Cues|Non-Text Cues|| 
-|---------|-------------------|---------|----------|-------------------|------------|-------------||
-|Visual-based|NO|NO|NO|NO|NO|YES||
-|User Based|NO|NO|NO|YES|YES|YES||
-|User Post Based|YES|YES|YES|YES|NO|YES||
-|Social Network Based|NO|NO|NO|NO|YES|NO||
-|Knowledge Based|NO|NO|YES|NO|NO|NO||
-|Style Based|YES|NO|NO|YES|YES|NO||
-|Stance Based|NO|NO|NO|NO|NO|NO||
 
   정확도 : 63~70% 
   
