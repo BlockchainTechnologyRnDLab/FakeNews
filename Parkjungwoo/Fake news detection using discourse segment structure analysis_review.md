@@ -22,6 +22,7 @@
 |소문|Unknown|Unknown|Unknown|
 
 * 가짜뉴스 탐지를 위한 다양한 방법론(2016년 이후)
+
 |AUTHOR|OUTCOME|CONCLUSION/TECHNIQUE USED|
 |------|---|---|
 |Monu Waskale, Prof.Pritesh Jain, 2019|GRU-2 can identify bits of gossip with exactness 83.9% for twitter within 12-hours.|Rational investigation of large portion of existing techniques identified from the earlier bits of gossip using GRU-2 and Tanh-RNN classifier for comparison.|
@@ -63,25 +64,3 @@ in famous Twitter threads.|
 * 관련연구: 논문에서 기술하는 관련 연구 부분 중 검토필요가 있는 것은 일반 논문의 검토와 같은 수준의 논문 리뷰를 하는 것으로 
 확장하기 위한 것으로 규정
 
-
-표 1 : 가짜 뉴스 카테고리
-                       진위 / 의도 / 뉴스?
-악의적으로 거짓 뉴스    FALSE   BAD     YES
-가짜 뉴스              FALSE  Unknown  YES
-풍자 뉴스             Unknown Not Bad  YES
-잘못된 정보            FALSE  BAD      Unknown  
-사라진 정보            FALSE  Unknown  Unknown
-소문                  Unknown Unknown Unknown
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
