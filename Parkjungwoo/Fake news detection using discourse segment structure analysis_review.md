@@ -4,12 +4,23 @@
 
 * 논문에서 가짜뉴스를 검출하려는 뉴스 종류 : 소셜 Context, 뉴스 Content Model, 가짜뉴스 탐지
 
-* 논문에서 정의하고 있는 가짜뉴스: 단순히 거짓 뉴스, 대중을 오해 하기위해 기존 또는 온라인 뉴스매체를 통해 고의적인 오보
+* 논문에서 정의하고 있는 가짜뉴스
+  - 단순히 거짓 뉴스, 대중을 오해 하기위해 기존 또는 온라인 뉴스매체를 통해 고의적인 오보
 
 * 가짜뉴스 탐지방법
    1. 지식기반탐지 : 뉴스기사에 제시된 유익한 내용
    2. 스타일기반탐지 : 작문스타일과 언어 내용의 패턴
    3. 소셜 콘텍스트 모델 : 뉴스의 전파 패턴, 새로운 뉴스 생성자와 전파 기반 기술의 관계 신뢰도
+
+    ||진위|의도|뉴스|
+    |------|---|---|
+    |악의적으로 거짓 뉴스|FALSE|BAD|YES|
+    |가짜 뉴스|FALSE|  Unknown|  YES|
+풍자 뉴스             Unknown Not Bad  YES
+잘못된 정보            FALSE  BAD      Unknown  
+사라진 정보            FALSE  Unknown  Unknown
+소문                  Unknown Unknown Unknown
+
 
 |AUTHOR|OUTCOME|CONCLUSION/TECHNIQUE USED|
 |------|---|---|
