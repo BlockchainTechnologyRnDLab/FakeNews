@@ -18,9 +18,9 @@ Florida State University, FM Lab, FL,USA
   - 데이터의 양 및 취득 방법(또는 경로)
     - PolitiFact 사이트에서 제공한 데이터셋 사용(3,634명이 평균 3.86개 작성한 14,055개의 기사/152개의 주제를 가짐)   
     : 연설, 뉴스 기사, 소셜 미디어 등에서 정치적 발언을 수집하고 PolitiFact 홈페이지와 PolitiFact의 공식 트위터 계정을 통해 사실 판단 결과 True, Mostly True, Half True, Half False, Mostly False, Pants on Fire로 라벨링 됨
-  - 데이터 전처리 방법
     - PolitiFact 데이터셋의 90%를 학습 데이터로 10%를 테스트 데이터로 사용
     - 6개로 라벨링된 데이터는 각 6~1점으로 신뢰도 점수를 매김
+  - 데이터 전처리 방법
     1. 명시적 특징 추출
         - 본문에서 많이 사용되는 단어 추출
         - 본문, 제목, 작성자 정보에서도 고유 단어 집합 추출
@@ -31,8 +31,8 @@ Florida State University, FM Lab, FL,USA
       - 수동으로 가짜 여부를 판단한 웹사이트에서 데이터셋을 제공받았기에 신뢰성이 높다고 봄
 * 논문에서 사용하는 알고리즘
   - 사용한 머신러닝 알고리즘 종류
-    1. 명시적 특징 추출 : Hybrid Feature Learning Unit (HFLU)
-    2. 잠재적 특징 추출 : Gated Diffusive Unit (GDU)
+    1. Hybrid Feature Learning Unit (HFLU) : 명시적 / 잠재적 특징 추출
+    2. Gated Diffusive Unit (GDU) : 본문, 주제, 작성자 간의 상관관계를 기반으로 연결
   - 비교에 사용된 모델
     1. Hybrid CNN : CNN을 기반으로 텍스트 기사를 효과적으로 분류함
     2. LIWC : 언어 특징을 효과적으로 추출하며, LSTM과 같은 일부 모델에서 기사 분류에 사용됨
