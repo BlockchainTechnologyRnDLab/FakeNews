@@ -9,13 +9,13 @@ H[좌희정] 자동화기반의 가짜 뉴스 탐지를 위한 연구 분석, �
 
 [Stephane Schwarz] EMET: EMBEDDINGS FROM MULTILINGUAL-ENCODER TRANSFORMER FORFAKE NEWS DETECTION, 2020 IEEE ICASSP, 2020
 
-[Peng Qi] Exploiting Multi-domain Visual Informationfor Fake News Detection, 2019 IEEE ICDM, 2019
+H[Peng Qi] Exploiting Multi-domain Visual Informationfor Fake News Detection, 2019 IEEE ICDM, 2019
 
 [Mohamed K. Elhadad] Fake News Detection on Social Media: A Systematic Survey, 2019 IEEE, 2019
 
 [Konstantinos Demestichas] Food for Thought: FightingFake News and OnlineDisinformation, IEEE Computer Society, 2020
 
-[Rohit Kumar Kaliyar] Fake News Detection Using A Deep Neural Network, 2018 IEEE 4th ICCCA , 2018
+H[Rohit Kumar Kaliyar] Fake News Detection Using A Deep Neural Network, 2018 IEEE 4th ICCCA , 2018
 
 P[Anmol Uppal, Vipul Sachdeva, Seema Sharma] Fake news detection using discourse segment structure analysis, 2020 IEEE 10th International Conference on Cloud Computing, Data Science & Engineering (Confluence), 2020
 
