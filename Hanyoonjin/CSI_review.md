@@ -1,6 +1,6 @@
 ## CSI: A Hybrid Deep Model for Fake News Detection
 
-논문 저자 정보 (이름, 소속)
+* 논문 저자 정보 (이름, 소속)
 Natali Ruchansky   
 University of Southern California   
 Los Angeles, California   
