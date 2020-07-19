@@ -7,7 +7,7 @@ H[좌희정] 자동화기반의 가짜 뉴스 탐지를 위한 연구 분석, �
 
 [Terry Traylor] Classifying Fake News Articles Using Natural Language Processing to Identify In-Article Attribution as a Supervised Learning Estimator, 2019 IEEE 13th ICSC, 2019
 
-[Stephane Schwarz] EMET: EMBEDDINGS FROM MULTILINGUAL-ENCODER TRANSFORMER FORFAKE NEWS DETECTION, 2020 IEEE ICASSP, 2020
+H[Stephane Schwarz] EMET: EMBEDDINGS FROM MULTILINGUAL-ENCODER TRANSFORMER FORFAKE NEWS DETECTION, 2020 IEEE ICASSP, 2020
 
 H[Peng Qi] Exploiting Multi-domain Visual Informationfor Fake News Detection, 2019 IEEE ICDM, 2019
 
