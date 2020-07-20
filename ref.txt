@@ -45,7 +45,7 @@ H[Jiawei Zhang] Deep Diffusive Neural Network based Fake NewsDetection from Hete
 
 H[Harika Kudarvalli] Detecting Fake News using Machine Learning Algorithms
 
-[Abdullah-All-Tanvir] Detecting Fake News using Machine Learning and Deep Learning Algorithms, 2019 IEEE 2019 7th International Conference on Smart Computing &Communications (ICSCC), 2019
+P[Abdullah-All-Tanvir] Detecting Fake News using Machine Learning and Deep Learning Algorithms, 2019 IEEE 2019 7th International Conference on Smart Computing &Communications (ICSCC), 2019
 
 [Seunghyun Yoon] Detecting Incongruity between News Headline and Body Textvia a Deep Hierarchical Encoder, The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19), 2019
 
@@ -59,7 +59,7 @@ P [Chaitra K Hiramath] Fake News Detection Using Deep Learning Techniques, 2019 
 
 [Pedro Faustini] Fake News Detection Using One-Class Classification, 2019 IEEE
 
-[Aswini Thota] Fake News Detection: A Deep Learning Approach, SMU Data Science Review Vol. 1. No.3, 2018
+P[Aswini Thota] Fake News Detection: A Deep Learning Approach, SMU Data Science Review Vol. 1. No.3, 2018
 
 [Oluwaseun Ajao] Fake News Identification on Twitter with Hybrid CNN and RNN Models, Copenhagen Denmark SMSociety, 2018
 
