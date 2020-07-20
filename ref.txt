@@ -65,7 +65,7 @@ P[Aswini Thota] Fake News Detection: A Deep Learning Approach, SMU Data Science 
 
 [Jiawei Zhang, Bowen Dong, Philip S. Yu] FAKEDETECTOR: Effective Fake News Detectionwith Deep Diffusive Neural Network, 2019
 
-[Rohit Kumar Kaliyar] FNDNet- A deep convolutional neural network for fake news detection, 2020 Cognitive Systems Research 61 32-44, 2020
+H[Rohit Kumar Kaliyar] FNDNet- A deep convolutional neural network for fake news detection, 2020 Cognitive Systems Research 61 32-44, 2020
 
 [Jooyeon Kim] Homogeneity-Based Transmissive Process to Model True andFalse News in Social Networks, WSDM ’19, February 11–15, 2019, Melbourne, VIC, Australia Session 6: Networks and Social Behavior
 
