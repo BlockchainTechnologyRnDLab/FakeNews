@@ -46,7 +46,7 @@
 
 * LSTM을 이용한 모델과 알고리즘을 활용한 가짜트윗 결과
 
-  ** 교차검증 후 정확도
+** 교차검증 후 정확도
   
 |classifires|count Vecotr|TF-IDF|
 |--|----------|---|
@@ -61,5 +61,10 @@
 |Long Shot-Term Memory|73%|76%|
 |Recurrent Neural Network|74%|73%|
   
-  ** 딥러닝 알고리즘 적용 후 정확도
-  
+  ** NB,LR,SVM의 Precision,Recall,F1-Score 점수 : RECALL(실제클래스 관찰),Precision(예측),F1-Score(정밀도의 가중평균)
+
+||Precision|Recall|F1-Score|
+|--|--|----------|---|
+|NB|0.89|0.99|0.94|
+|LR|0.89|0.75|0.81|
+|SVM|0.89|1.0|0.94|
