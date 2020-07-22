@@ -13,7 +13,7 @@
 |CREDBANK|Tweet|60 milion|30-element vecotr|Workers|
 |FAKENEWSNET|article|23,921|fake or real|Editors|
 |BS Detector|article|-|10 different Types|None|
-|PolitiFact|자세히조사必|-|Enterprise|
+|PolitiFact|자세히조사必|||Enterprise|
 
  Dataset 라벨 좀더 상세히 분류하고 조사 할것.
  
