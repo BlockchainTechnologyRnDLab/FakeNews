@@ -46,7 +46,7 @@
 
 LSTM을 이용한 모델과 알고리즘을 활용한 가짜트윗 결과
 
-|classifires|정확도|
+|classifires|정확도||
 | |count Vecotr|TF-IDF|
 |--|----------|---|
 |LR|62.47%|69.47%|
