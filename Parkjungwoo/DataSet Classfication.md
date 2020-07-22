@@ -14,7 +14,6 @@
 |CREDBANK|Tweet|60 milion|30-element vecotr|workers|
 |FAKENEWSNET|article|23,921|fake or real|Editors|
 |BS Detector|article|-|10 different Types|None|
-  
-   - 한국
+    - 한국
 
   * 논문에 따른 DataSet 정리
