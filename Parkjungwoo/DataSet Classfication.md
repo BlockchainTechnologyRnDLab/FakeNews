@@ -2,7 +2,7 @@
 
  * 영어 DATA SET 
  
-|DATA SET 종류|DATA SET 획득경로|DATA SET 크기(단위:천개)|DATA SET 라벨|가짜뉴스 정보제공자|
+|DATA SET 종류|DATA SET 획득경로|DATA SET 크기(단위:만)|DATA SET 라벨|가짜뉴스 정보제공자|
 |------|---|---|---|---|
 |LIAR|Short Claim(짧은 주장)|12,836|six-grade|Editor, Journalists|
 |FEVER|Short Claim(짧은 주장)|185,445|three-grade|Trained Annotators|
