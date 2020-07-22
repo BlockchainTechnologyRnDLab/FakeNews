@@ -12,18 +12,18 @@
   - 뉴스정의가 아닌 트윗을 분류 (가짜, 실수, 사실이 아닌)
  
 * 논문에서 학습에 사용되는 데이터
-  - Chile Earthquake 2010 Dataset, 데이터양 : 20,360개의 데이터
-  
+  - 데이터의 양 및 취득 방법(또는 경로)
+    - Chile Earthquake 2010 Dataset, 데이터양 : 20,360개의 데이터
   - 데이터 전처리 방법
-    1. 데이터셋 처리
-     -1.1 데이터 집합을 H : 가짜, 나쁜의도를 가진 트윗 , N : 실수, 나쁜의도를 가지지않은 트윗으로분류
-     -1.2 트윗의 단어길이를 분석 : 인증되지 않은 뉴스 컨텐츠가 많은 제목, 단어 및 허구의 진술, 링크, 날짜 또는 표시가 없는 부분
-    2. Count Vectors
-    3. TF_IDF
-      -3.1 World Level
-      -3.2 N-gram Level
-      -3.3 Character Level
-    4. Word Embedding : 단어와 문서를 벡터로 표현
+    - 데이터셋 처리
+      - 데이터 집합을 H : 가짜, 나쁜의도를 가진 트윗 , N : 실수, 나쁜의도를 가지지않은 트윗으로분류
+      - 트윗의 단어길이를 분석 : 인증되지 않은 뉴스 컨텐츠가 많은 제목, 단어 및 허구의 진술, 링크, 날짜 또는 표시가 없는 부분
+    - Count Vectors
+    - TF_IDF
+      - World Level
+      - N-gram Level
+      - Character Level
+    - Word Embedding : 단어와 문서를 벡터로 표현
    
   - 개발 관련 구현언어 : Python 3.65.
   
