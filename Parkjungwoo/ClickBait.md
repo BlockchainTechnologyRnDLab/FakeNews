@@ -1,4 +1,4 @@
-# ClickBait
+# ClickBait 관련 조사.
  * 개요
    - Clickbait의 형태는 거짓 광고를 사용.
    - 하이퍼 링크 텍스트 또는 썸네일 링크.
