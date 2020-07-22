@@ -48,7 +48,7 @@
 
       - 교차검증 후 정확도
   
-|classifires|count Vecotr|TF-IDF|
+|classifires|count Vector|TF-IDF|
 |--|----------|---|
 |LR|62.47%|69.47%|
 |NB|84.56%|89.06%|
