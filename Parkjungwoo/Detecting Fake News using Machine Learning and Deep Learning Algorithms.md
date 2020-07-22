@@ -2,7 +2,7 @@
  
 * 논문 저자 정보 (이름, 소속)
   - Abdullah-All-Tanvir, Ehesas Mia Mahir, Saima Akhter, Mohmmad Rezwanul Huq
-   East West University, Bangladesh 
+   East West University, Bangladesh, 2019 
    
 * 논문에서 가짜뉴스를 검출하려는 뉴스 종류
   - 트위터에서의 뉴스(소셜미디어)
