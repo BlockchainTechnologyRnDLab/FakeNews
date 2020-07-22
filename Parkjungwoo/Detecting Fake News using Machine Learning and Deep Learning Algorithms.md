@@ -26,7 +26,7 @@
     4. Word Embedding : 단어와 문서를 벡터로 표현
    
   - 개발 관련 구현언어 : Python 3.65.
-  -  **(검토자 의견) 데이터 객관성 여부에 대한 검토 의견**  
+  
 * 논문에서 사용하는 알고리즘  
   - 사용한 머신러닝 알고리즘 종류
    1. SVM
@@ -46,7 +46,7 @@
 
 * LSTM을 이용한 모델과 알고리즘을 활용한 가짜트윗 결과
 
-    - 교차검증 후 정확도
+      - 교차검증 후 정확도
   
 |classifires|count Vecotr|TF-IDF|
 |--|----------|---|
@@ -54,14 +54,14 @@
 |NB|84.56%|89.06%|
 |SVM|89.34%|89.34%|
 
-    - 딥러닝 알고리즘 적용 후 정확도
+      - 딥러닝 알고리즘 적용 후 정확도
   
 |classifires|Defalut|with Kernel Initialization|
 |--|----------|---|
 |Long Shot-Term Memory|73%|76%|
 |Recurrent Neural Network|74%|73%|
   
-    - NB,LR,SVM의 Precision,Recall,F1-Score 점수 : RECALL(실제클래스 관찰),Precision(예측),F1-Score(정밀도의 가중평균)
+      - NB,LR,SVM의 Precision,Recall,F1-Score 점수 : RECALL(실제클래스 관찰),Precision(예측),F1-Score(정밀도의 가중평균)
 
 ||Precision|Recall|F1-Score|
 |--|--|----------|---|
