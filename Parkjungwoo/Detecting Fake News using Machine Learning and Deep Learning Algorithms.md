@@ -34,18 +34,17 @@
    3. LR (Logistic Regression)
    4. Recurrent Neural Network(RNN)
    5. Long short-term memory
-   
-   - 학습 방식 : 지도(분류기) + 강화(RNN)
-   - 신경망을 사용할 경우 네트워크 내용
-    1.LSTM 이용 : 임베디드레이어, 숨겨진레이어, 입/출력 레이어, Sigmoid 활성화 함수와 glorot_nomal사용 
+  - 학습 방식 : 지도(분류기) + 강화(RNN)
+  - 신경망을 사용할 경우 네트워크 내용
+   1.LSTM 이용 : 임베디드레이어, 숨겨진레이어, 입/출력 레이어, Sigmoid 활성화 함수와 glorot_nomal사용 
     
 * **오픈소스 공개 여부** : X
 * 논문의 평가
-    - 논문 결과 (정량적 또는 정성적 결과) : 
+ - 논문 결과 (정량적 또는 정성적 결과) : 
     SVM과 Naive Bayes 분류기 다른알고리즘보다 우수, 
     제안하는 4가지의 벡터 (Count Vector, World Level Vectors, N-gram Vectors, Character Level Vectors) 비교 분석
 
-||NaiveBayes||
-|--|----------|---|
-|특징벡터|73%||
-|카운터벡터|75%||
+||NaiveBayes|
+|--|----------|
+|특징벡터|73%|
+|카운터벡터|75%|
