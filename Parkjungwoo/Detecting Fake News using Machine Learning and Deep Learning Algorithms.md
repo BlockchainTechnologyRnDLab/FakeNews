@@ -34,7 +34,7 @@
    3. LR (Logistic Regression)
    4. Recurrent Neural Network(RNN)
    5. Long short-term memory
-  - 학습 방식 : 지도(분류기) + 강화(RNN)
+  - 학습 방식 : 지도(분류기) + 강화(다시공부할것)
   - 신경망을 사용할 경우 네트워크 내용
      - LSTM 이용 : 임베디드레이어, 숨겨진레이어, 입/출력 레이어, Sigmoid 활성화 함수와 glorot_nomal사용 
     
