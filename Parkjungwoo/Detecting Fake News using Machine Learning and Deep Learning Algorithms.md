@@ -45,7 +45,7 @@
     SVM과 Naive Bayes 분류기 다른알고리즘보다 우수, 
     제안하는 4가지의 벡터 (Count Vector, World Level Vectors, N-gram Vectors, Character Level Vectors) 비교 분석
 
-|--|NaiveBayes|---|
+||NaiveBayes||
 |--|----------|---|
 |특징벡터|73%||
 |카운터벡터|75%||
