@@ -1,5 +1,7 @@
 # DATA SET 분류 작업.
 
+Dataset 라벨 좀더 상세히 분류하고 조사 할것.
+ 
  * 영어 DATA SET 
  
 |DATA SET 종류|DATA SET 획득경로|DATA SET 크기(단위:개)|DATA SET 라벨|정보제공자|
@@ -14,15 +16,15 @@
 |FAKENEWSNET|article|23,921|fake or real|Editors|
 |BS Detector|article|-|10 different Types|None|
 |PolitiFact|자세히조사必|||Enterprise|
+|...|..|...|..|
 
- Dataset 라벨 좀더 상세히 분류하고 조사 할것.
- 
- * 한국 DATA SET 
+  * 한국 DATA SET 
 
 |DATA SET 종류|DATA SET 획득경로|DATA SET 크기(단위:개)|DATA SET 라벨|정보제공자|
 |------|---|---|---|---|
 |Kinds|News,article|200(더조사해보아야함)|tree-grade|한국언론진흥재단| 
- 
+|...|..|...|..|
+
  * 논문에 따른 DataSet 정리
 
 |논문명|DATA SET|
