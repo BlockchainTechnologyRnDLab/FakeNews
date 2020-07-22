@@ -1,4 +1,4 @@
-# Data SET 분류 작업.
+# DATA SET 분류 작업.
 
  * 영어 DATA SET 
  
