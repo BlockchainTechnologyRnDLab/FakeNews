@@ -1,6 +1,6 @@
 # DATA SET 분류 작업.
 
-Dataset 라벨 좀더 상세히 분류하고 조사 할것.
+Dataset 라벨 좀더 상세히 분류하고 조사 할 것. DeepLearning 부분만 조사 인것인지, 전체적인 논문에 다 조사 
  
  * 영어 DATA SET 
  
