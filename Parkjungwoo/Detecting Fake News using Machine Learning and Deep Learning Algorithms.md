@@ -20,9 +20,9 @@
        1.2 트윗의 단어길이를 분석 : 인증되지 않은 뉴스 컨텐츠가 많은 제목, 단어 및 허구의 진술, 링크, 날짜 또는 표시가 없는 부분
     2. Count Vectors
     3. TF_IDF
-       3.1 World Level
-       3.2 N-gram Level
-       3.3 Character Level
+        3.1 World Level
+        3.2 N-gram Level
+        3.3 Character Level
     4. Word Embedding : 단어와 문서를 벡터로 표현
    
   - 개발 관련 구현언어 : Python 3.65.
