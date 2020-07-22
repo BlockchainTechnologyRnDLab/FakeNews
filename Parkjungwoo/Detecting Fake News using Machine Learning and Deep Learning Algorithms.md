@@ -39,7 +39,7 @@
      - LSTM 이용 : 임베디드레이어, 숨겨진레이어, 입/출력 레이어, Sigmoid 활성화 함수와 glorot_nomal사용 
     
 * **오픈소스 공개 여부** : X
-* 논문의 평가 : 5가지의 알고리즘과, 신경망을 활용한 결과를 한눈에 알아 볼 수 있는 논문
+* 논문의 평가 : 5가지의 알고리즘과, 신경망을 활용한 결과를 한눈에 수치를 알아 볼 수 있는 논문
 * 논문 결과 (정량적 또는 정성적 결과)  
   - SVM과 Naive Bayes 분류기 다른알고리즘보다 우수, 
   - 제안하는 4가지의 벡터 (Count Vector, World Level Vectors, N-gram Vectors, Character Level Vectors) 비교 분석
