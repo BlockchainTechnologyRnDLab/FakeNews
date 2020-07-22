@@ -24,3 +24,10 @@
 |Kinds|News,article|200(더조사해보아야함)|tree-grade|한국언론진흥재단| 
  
  * 논문에 따른 DataSet 정리
+
+|논문명|DATA SET|
+|-----|--------|
+|A Benchmark Study on Machine Learning Methods for Fake News Detection|Liar, Fake or Real News, Combined Corpus|
+|A Deep Ensemble Framework for Fake News Detection and Classification|Liar, PlitiFact.com|
+|A Deep Learning Approach for Automatic Detection of Fake News|FakeNewsATM, Celebrity|
+|...|..|
