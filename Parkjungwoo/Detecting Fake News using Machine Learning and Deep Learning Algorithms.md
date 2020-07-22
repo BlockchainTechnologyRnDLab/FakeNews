@@ -41,10 +41,11 @@
     
 * **오픈소스 공개 여부** : X
 * 논문의 평가
-   - 논문 결과 (정량적 또는 정성적 결과)
-    SVM과 Naive Bayes 분류기 다른알고리즘보다 우수
+    - 논문 결과 (정량적 또는 정성적 결과) : 
+    SVM과 Naive Bayes 분류기 다른알고리즘보다 우수, 
     제안하는 4가지의 벡터 (Count Vector, World Level Vectors, N-gram Vectors, Character Level Vectors) 비교 분석
 
 |--|NaiveBayes|---|
-|특징벡터|73%
-|카운터벡터|75%
+|--|----------|---|
+|특징벡터|73%||
+|카운터벡터|75%||
