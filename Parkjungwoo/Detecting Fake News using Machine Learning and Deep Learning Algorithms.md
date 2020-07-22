@@ -45,6 +45,7 @@
   - 제안하는 4가지의 벡터 (Count Vector, World Level Vectors, N-gram Vectors, Character Level Vectors) 비교 분석
 
 * LSTM을 이용한 모델과 알고리즘을 활용한 가짜트윗 결과
+
   - 교차검증 후 정확도
   
 |classifires|count Vecotr|TF-IDF|
@@ -52,7 +53,7 @@
 |LR|62.47%|69.47%|
 |NB|84.56%|89.06%|
 |SVM|89.34%|89.34%|
-*
+
   - 딥러닝 알고리즘 적용 후 정확도
   
 |classifires|Defalut|with Kernel Initialization|
