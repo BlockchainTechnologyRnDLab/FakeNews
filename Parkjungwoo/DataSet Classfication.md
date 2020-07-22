@@ -4,15 +4,17 @@
  
 |DATA SET 종류|DATA SET 획득경로|DATA SET 크기(단위:천개)|DATA SET 라벨|가짜뉴스 정보제공자|
 |------|---|---|---|---|
-|LIAR|Short Claim(짧은 주장)|12,836|six-grade|Editor,Journalists|
+|LIAR|Short Claim(짧은 주장)|12,836|six-grade|Editor, Journalists|
 |FEVER|Short Claim(짧은 주장)|185,445|three-grade|Trained Annotators|
 |BuzzzFeedNews|FB post(FaceBook)|2282|four-grade|Journnalists|
 |BuzzzFace|FB post(FaceBook)|2263|four-grade|Journnalists|
-|some-like-it-hoax|Tweet|15,500|hoaxes or non-hoaxes|None|
+|some-like-it-hoax|Tweet|15,500|hoaxes or non-hoaxes(사기/비사기)|None|
 |PHEME|Tweet|330|true or false|Jounarlists|
-|CREDBANK|Tweet|60 milion|30-element vecotr|workers|
+|CREDBANK|Tweet|60 milion|30-element vecotr|Workers|
 |FAKENEWSNET|article|23,921|fake or real|Editors|
 |BS Detector|article|-|10 different Types|None|
+ 
+ Dataset 라벨 좀더 상세히 분류..
  
  * 한국 DATA SET 
  
