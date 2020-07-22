@@ -18,6 +18,7 @@
  Dataset 라벨 좀더 상세히 분류하고 조사 할것.
  
  * 한국 DATA SET 
+
 |DATA SET 종류|DATA SET 획득경로|DATA SET 크기(단위:개)|DATA SET 라벨|정보제공자|
 |------|---|---|---|---|
 |Kinds|News,article|200(더조사해보아야함)|tree-grade|한국언론진흥재단| 
