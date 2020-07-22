@@ -1,9 +1,20 @@
 # Data SET 분류 작업.
 
  * DATA SET 종류
+   - 영어
  
-|저자|논문명|가짜뉴스 탐지에 사용된 네트워크 및 알고리즘|결과|
-|------|---|---|----|
-|Monu Waskale, Prof.Pritesh Jain, 2019|A Review Rumors Detection on Twitter Using Machine Learning Techniques|GRU-2 와 Tanh-RNN 분류기 사용|GRU-2분류기 12시간 이내의 트위터에 대해 83.9%의 정확성
+|DATA SET 종류|DATA SET 획득경로|DATA SET 크기(단위:천개)|DATA SET 라벨|가짜뉴스 정보제공자|
+|------|---|---|---|---|
+|LIAR|Short Claim(짧은 주장)|12,836|six-grade|Editor,Journalists|
+|FEVER|Short Claim(짧은 주장)|185,445|three-grade|Trained Annotators|
+|BuzzzFeedNews|FB post(FaceBook)|2282|four-grade|Journnalists|
+|BuzzzFace|FB post(FaceBook)|2263|four-grade|Journnalists|
+|some-like-it-hoax|Tweet|15,500|hoaxes or non-hoaxes|None|
+|PHEME|Tweet|330|true or false|Jounarlists|
+|CREDBANK|Tweet|60 milion|30-element vecotr|workers|
+|FAKENEWSNET|article|23,921|fake or real|Editors|
+|BS Detector|article|-|10 different Types|None|
+
+   - 한국
 
  * 논문에 따른 DataSet 정리
