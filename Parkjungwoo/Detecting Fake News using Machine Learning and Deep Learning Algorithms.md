@@ -61,7 +61,7 @@
 |Long Shot-Term Memory|73%|76%|
 |Recurrent Neural Network|74%|73%|
   
-      - NB,LR,SVM의 Precision,Recall,F1-Score 점수 : RECALL(실제클래스 관찰),Precision(예측),F1-Score(정밀도의 가중평균)
+      - NB,LR,SVM의 Precision,Recall,F1-Score 점수 ***(앞발표에 지적하신 참고사항 토대로 , 정리다시한번할 것)
 
 ||Precision|Recall|F1-Score|
 |--|--|----------|---|
