@@ -11,7 +11,7 @@ Department of Computer Science and Engineering, Government College of Engineerin
   * 소셜 미디어 정보
      
 * 논문에서 정의하고 있는 가짜뉴스   
-  * 잘못된 정보
+  * 문장에서 주제 및 다른 문장들과 관계가 없고, 근거가 없는 선동적인 주장을 보이는 뉴스
   
 * 논문에서 학습에 사용되는 데이터
   - 데이터의 양 및 취득 방법(또는 경로) : [P ́erez-Rosas 연구](https://www.aclweb.org/anthology/C18-1287/)
