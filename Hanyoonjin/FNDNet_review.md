@@ -11,7 +11,7 @@ Rohit Kumar Kaliyar1, Anurag Goswami1, Pratik Narang2, Soumendu Sinha3
   * 소셜 미디어의 텍스트 뉴스
 
 * 논문에서 정의하고 있는 가짜뉴스
-  * 속이기 위해 작성된 정보
+  * 문장에서 주제와 맞지 않고, 근거가 없는 선동적인 주장을 보이는 뉴스
 
 * 논문에서 학습에 사용되는 데이터
   - 데이터의 양 및 취득 방법(또는 경로)
