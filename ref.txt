@@ -44,15 +44,13 @@ H[Yang Yang] TI-CNN: Convolutional Neural Networks for FakeNews Detection,
 
 H[좌희정] exBAKE: Automatic Fake News Detection Model Based on Bidirectional Encoder Representations from Transformers (BERT)
 
-------------
-
 H [Arjun Roy, Kingshuk Basak] A Deep Ensemble Framework for Fake NewsDetection and Classification, 
+
+------------
 
 H [Xishuang Dong] Deep Two-path Semi-supervised Learning for Fake News Detection, 
 
 H [Seunghyun Yoon] Detecting Incongruity between News Headline and Body Textvia a Deep Hierarchical Encoder, The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19), 2019
-
-H [Anmol Uppal] Fake news detection using discourse segment structure analysis, 2020 10th International Conference on Cloud Computing, Data Science & Engineering (Confluence), 2020
 
 P [Oluwaseun Ajao] Fake News Identification on Twitter with Hybrid CNN and RNN Models, Copenhagen Denmark SMSociety, 2018
 
