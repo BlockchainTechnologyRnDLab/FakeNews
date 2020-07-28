@@ -50,7 +50,7 @@ University of Paris-Saclay, France
   
 * 논문의 평가
   - 논문에서 주장하는 내용 
-    - 유클리드공간과 Content 기반 탐지방법론과, Graph Based의 표현체계로 문맥가느이 유사성을 찾은 뒤 , Graph Neural Networks를 사용 하였을 경우 기존의 Content 기반 탐지방법론보다 우수한 결과를 나타냄.
+    - 유클리드공간과 Content 기반 탐지방법론과, Graph Based의 표현체계로 문맥 유사성을 찾은 뒤 , Graph Neural Networks를 사용 하였을 경우 기존의 Content 기반 탐지방법론보다 우수한 결과를 나타냄.
     - AGNN+GCN 제안모델이 가짜뉴스를 효과적으로 검출할 수 있음
     
    - 논문 결과 (정량적 또는 정성적 결과)
