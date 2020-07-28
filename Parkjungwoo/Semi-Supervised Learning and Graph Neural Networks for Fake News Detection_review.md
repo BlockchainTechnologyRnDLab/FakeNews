@@ -54,16 +54,7 @@ University of Paris-Saclay, France
     - AGNN+GCN 제안모델이 가짜뉴스를 효과적으로 검출할 수 있음
     
    - 논문 결과 (정량적 또는 정성적 결과)
-  <html>
-  <body>
-    <table border="123">
-      <tr>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-      </tr>        
-  </html>
-  
+    
       | Methods | Accuracy (in %)|||||
       |---------|--|---|---|---|-----|
       ||2% labeled data|5% labeled data|10% labeled data|15% labeled data|20% labeled data|
@@ -77,4 +68,15 @@ University of Paris-Saclay, France
      
   - **(검토자 의견) 논문 결과에 대한 객관성에 대한 검토의견** 
 
+<html>
+  <body>
+    <table>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+    </table>
+  </body>
+</html>
 
