@@ -12,9 +12,7 @@ University of Paris-Saclay, France
   * 잘못된 정보(MissInformation)의 확산
   * 가짜뉴스는 EchoChamber 현상 이용 
     * EchoChamber : 인터넷 공간에서 자신과 유사한 생각을 가진 사람들과만 소통하면서 점차 편향된 사고를 갖는 현상
-  * 잘못된 정보 Detection Embedding Code : : https://github.com/bdvllrs/misinformation-detection-tensor-embeddings 
-  * 가짜뉴스 탐지알고리즘 개발 커뮤니티 : https://dl.acm.org/doi/10.1145/3341161.3342958
-  
+ 
   
   * 개인 또는 조직의 이익을 목적으로 독자를 속이기 위해  고의적으로 작성된 정보
   * 스팸 메시지와 유사하게 제한된 단어들을 사용하며, 문법적인 실수 등 문맥상 공통적인 특징들을 가짐
@@ -47,7 +45,9 @@ University of Paris-Saclay, France
   - **(검토자 의견) 알고리즘이 논문에서 정의하는 가짜 뉴스를 검출하기에 적합한지 검토 의견** 
 
 * **오픈소스 공개 여부** 
-
+   - 잘못된 정보 Detection Embedding Code : : https://github.com/bdvllrs/misinformation-detection-tensor-embeddings 
+   - 가짜뉴스 탐지알고리즘 개발 커뮤니티 : https://dl.acm.org/doi/10.1145/3341161.3342958
+  
 * 논문의 평가
   - 논문에서 주장하는 내용 
     - 유클리드공간과 Content 기반 탐지방법론과, Graph Based의 표현체계로 문맥가느이 유사성을 찾은 뒤 , Graph Neural Networks를 사용 하였을 경우 기존의 Content 기반 탐지방법론보다 우수한 결과를 나타냄.
