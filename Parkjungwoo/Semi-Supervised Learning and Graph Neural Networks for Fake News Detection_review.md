@@ -26,21 +26,21 @@ University of Paris-Saclay, France
     - 데이터의 양 : 150개의 가짜뉴스
     
   - 데이터 전처리 방법 : 
-    1. Glove Word Embedding : 기사내 단어의 평균 벡터를 계산
-    2. Graph 구성 : 각 기사간의 노드 거리를 K-nearrest Neighbours Based) 하여 임베디드 공간 거리
-    3. 분류 : 기사간의 유사성 분류를 위해 두개의 Graph Neural Network 사용
-    4. 네트워크 방법 : GCN(Graph Convolution Network), AGNN(Attention Graph Neural Network)
+    - Glove Word Embedding : 기사내 단어의 평균 벡터를 계산
+    - Graph 구성 : 각 기사간의 노드 거리를 K-nearrest Neighbours Based) 하여 임베디드 공간 거리
+    - 분류 : 기사간의 유사성 분류를 위해 두개의 Graph Neural Network 사용
+    - 네트워크 방법 : GCN(Graph Convolution Network), AGNN(Attention Graph Neural Network)
  
 * 논문에서 사용하는 알고리즘  
   - 사용한 머신러닝 알고리즘 종류 
-    1. Semi-Supervised Learning 
+    - Semi-Supervised Learning 
   - 학습 방식 : Semi-Supervised Learning, 지도학습
   - 신경망을 사용할 경우 네트워크 내용
-    1. Graph Neural Networks
-      - 두개의 4,4 개의 레이어 사용
-      - 16개의 숨겨진 레이어 사용
-      - 0.01% 학습률 
-      - 1000번의 Epochs
+    - Graph Neural Networks
+     - 두개의 4,4 개의 레이어 사용
+     - 16개의 숨겨진 레이어 사용
+     - 0.01% 학습률 
+     - 1000번의 Epochs
 
   - **(검토자 의견) 알고리즘이 논문에서 정의하는 가짜 뉴스를 검출하기에 적합한지 검토 의견** 
 
