@@ -18,39 +18,31 @@ University of Paris-Saclay, France
   
   * 개인 또는 조직의 이익을 목적으로 독자를 속이기 위해  고의적으로 작성된 정보
   * 스팸 메시지와 유사하게 제한된 단어들을 사용하며, 문법적인 실수 등 문맥상 공통적인 특징들을 가짐
-  * 가짜뉴스 탐지방법 : Content Based Detection, 
+  * 가짜뉴스 탐지방법 
+    - 유클리드 공간(평면과 공간을 일반화 거리와 길이와 각도를 좌표계를 도입하여, 임의 차원의 공간으로 확장)
+    - Content Based Detection(단어잠재성 확인), Graph Based Detection(문맥간의 유사성)
   
 * 논문에서 학습에 사용되는 데이터
   - 데이터의 양 및 취득 방법(또는 경로)
-    - PHEME dataset (Zubiaga et al., 2016b) : 특정 사건별로 트윗 정리
+    - 실제가짜뉴스 (ICWSM Workshops)
+    - 데이터의 양 : 150개의 가짜뉴스
     
-      | Event | Tweets | Fake | True |
-      |---|---|---|---|
-      |GC|4,651|2,637|2,014|
-      |CH|40,178|7,697|32,481|
-      |SS|25,221|9,046|16,175|
-      |FE|25,054|6,686|18,368|
-      |OS|12,656|6,624|6,032|
-      |**Total**|**107,760**|**32,690**|**75,070**|
-      
-      ###### Event : 사건 내용
-      
-      LOEO(Leave-one-event-out) 교차 검증(Kochkina et al.,2018)을 사용하여 학습 데이터와 테스트 데이터의 개수가 다를 수 있음
-
-  - 데이터 전처리 방법 : X
+  - 데이터 전처리 방법 : 
+    1. Glove Word Embedding : 기사내 단어의 평균 벡터를 계산
+    2. Graph 구성 : 각 기사간의 노드 거리를 K-nearrest Neighbours Based) 하여 임베디드 공간 거리
+    3. 분류 : 기사간의 유사성 분류를 위해 두개의 Graph Neural Network 사용
+    4. 네트워크 방법 : GCN(Graph Convolution Network), AGNN(Attention Graph Neural Network)
  
 * 논문에서 사용하는 알고리즘  
   - 사용한 머신러닝 알고리즘 종류 
     1. Semi-Supervised Learning 
-  - 학습 방식 : Semi-Supervised Learning
+  - 학습 방식 : Semi-Supervised Learning, 지도학습
   - 신경망을 사용할 경우 네트워크 내용
-    1. Graph Neural Networks 
-    
-    [사진 출처](https://www.researchgate.net/figure/Framework-of-deep-two-path-semi-supervised-learning-DTSL-Samples-x-i-are-inputs_fig1_333773193)
-    
-    ![img](https://www.researchgate.net/profile/Uboho_Victor2/publication/333773193/figure/fig1/AS:769538295603204@1560483635675/Framework-of-deep-two-path-semi-supervised-learning-DTSL-Samples-x-i-are-inputs.png "구조")
-    
-    
+    1. Graph Neural Networks
+      - 두개의 4,4 개의 레이어 사용
+      - 16개의 숨겨진 레이어 사용
+      - 0.01% 학습률 
+      - 1000번의 Epochs
 
   - **(검토자 의견) 알고리즘이 논문에서 정의하는 가짜 뉴스를 검출하기에 적합한지 검토 의견** 
 
@@ -58,24 +50,19 @@ University of Paris-Saclay, France
 
 * 논문의 평가
   - 논문에서 주장하는 내용 
-    - 지도 학습과 비지도 학습을 모두 사용하여 가짜뉴스 검출에 성능을 높임
-    - 라벨링되어 있지 않은 데이터로 학습하여도 제안된 모델(DTSL; Deep Two-path Semi-supervised Learning)이 가짜뉴스를 효과적으로 검출할 수 있음
-    - 지도 학습 방식을 사용하는 모델들은 소셜미디어에서 빠른 속도로 퍼지는 가짜뉴스들을 효과적으로 검출할 수 없음
-  - 논문 결과 (정량적 또는 정성적 결과)
+    - 유클리드공간과 Content 기반 탐지방법론과, Graph Based의 표현체계로 문맥가느이 유사성을 찾은 뒤 , Graph Neural Networks를 사용 하였을 경우 기존의 Content 기반 탐지방법론보다 우수한 결과를 나타냄.
+    - AGNN+GCN 제안모델이 가짜뉴스를 효과적으로 검출할 수 있음
+    
+   - 논문 결과 (정량적 또는 정성적 결과)
   
-      | Event | F-score |
-      |---|---|
-      |Naive Bayes|41.24%|
-      |Decision Tree|33.03%|
-      |AdaBoost|20.43%|
-      |SVM|12.56%|
-      |BRNN|35.85%|
-      |**DTSL (5%)**|**53.90%**|
-      |**DTSL (10%)**|**61.53%**|
-      |**DTSL (30%)**|**57.98%**|
+      | Mehods | Accuracy (in %) |||||
+      |---|---|---|---|---|---|
+      ||2% labeled data|5% labeled data|10% labeled data|15% labeled data|20% labeled data|
+      |Guacho|56.65 ± 9.67|63.60 ± 7.52|70.95 ± 5.28|74.05 ± 3.80|79.8 ± 3.10|
+      |SVM|63.55 ± 5.73|66.55 ± 7.14|75.05 ± 5.20|76.05 ± 4.80|78.90 ± 5.16|
+      |RANDOM Forest|60.25 ± 10.02|69.05 ± 3.33|76.65 ± 3.48|83.55 ± 5.06|84.70 ± 2.48|
       
-      - 라벨링된 데이터의 비율을 증가시키면 성능도 향상됨
-      - 30%로 비율을 높였을 때 성능이 감소하는데, 이는 교육 데이터와 테스트 데이터 간의 데이터 분포 차이임
+      
 
   - **(검토자 의견) 논문 결과에 대한 객관성에 대한 검토의견** 
 
