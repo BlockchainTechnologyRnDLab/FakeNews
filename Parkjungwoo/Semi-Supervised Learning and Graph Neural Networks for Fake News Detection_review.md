@@ -55,15 +55,15 @@ University of Paris-Saclay, France
     
    - 논문 결과 (정량적 또는 정성적 결과)
   
-      | Mehods | Accuracy (in %) |
-      |---|---|---|---|---|---|
+      | Methods | Accuracy (in %)|||||
+      |---|:--:|---|---|---|---|
       ||2% labeled data|5% labeled data|10% labeled data|15% labeled data|20% labeled data|
       |Guacho|56.65 ± 9.67|63.60 ± 7.52|70.95 ± 5.28|74.05 ± 3.80|79.8 ± 3.10|
       |SVM|63.55 ± 5.73|66.55 ± 7.14|75.05 ± 5.20|76.05 ± 4.80|78.90 ± 5.16|
       |RANDOM Forest|60.25 ± 10.02|69.05 ± 3.33|76.65 ± 3.48|83.55 ± 5.06|84.70 ± 2.48|
       |AGNN|70.45± 5.39|72.00 ± 8.05|78.70 ±3.54|83.35 ± 1.74|84.25 ± 3.51|
       |GCN|72.04 ± 6.00|77.35 ± 3.72|79.85 ± 3.41|82.35 ± 2.44|84.94 ± 2.30|
-
+      [CLASSIFICATION ACCURACY WITH DIFFERENT RATIOS OF LABELED DATA USED FOR TRAINING WITH k = 4]
   - **(검토자 의견) 논문 결과에 대한 객관성에 대한 검토의견** 
 
 
