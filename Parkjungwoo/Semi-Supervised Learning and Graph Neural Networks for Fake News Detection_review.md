@@ -68,15 +68,5 @@ University of Paris-Saclay, France
      
   - **(검토자 의견) 논문 결과에 대한 객관성에 대한 검토의견** 
 
-<html>
-  <body>
-    <table>
-      <tr>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-      </tr>
-    </table>
-  </body>
-</html>
+
 
