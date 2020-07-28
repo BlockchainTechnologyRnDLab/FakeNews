@@ -1,18 +1,25 @@
   # Semi-Supervised Learning and Graph NeuralNetworks for Fake News Detection
 
 * 논문 저자 정보 (이름, 소속)   
-Xishuang Dong, Uboho Victor, Shanta Chowdhury, Lijun Qian   
-Department of Electrical and Computer Engineering,   
-Prairie View A&M University, Texas A&M University System, Prairie View, Texas   
-2019/06   
+Adrien Benamira,Benjamin Devillers, Etienne Lesot, Ayush K.Ray, Manal Saadi, Fragkiskos D.Malliaros, CentraleSupelec   
+University of Paris-Saclay, France
+2019/08   
 
 * 논문에서 가짜뉴스를 검출하려는 뉴스 종류
-  * 소셜 미디어 게시물
+  * 소셜미디어에서의 가짜뉴스
 
 * 논문에서 정의하고 있는 가짜뉴스
+  * 잘못된 정보(MissInformation)의 확산
+  * 가짜뉴스는 EchoChamber 현상 이용 
+    * EchoChamber : 인터넷 공간에서 자신과 유사한 생각을 가진 사람들과만 소통하면서 점차 편향된 사고를 갖는 현상
+  * 잘못된 정보 Detection Embedding Code : : https://github.com/bdvllrs/misinformation-detection-tensor-embeddings 
+  * 가짜뉴스 탐지알고리즘 개발 커뮤니티 : https://dl.acm.org/doi/10.1145/3341161.3342958
+  
+  
   * 개인 또는 조직의 이익을 목적으로 독자를 속이기 위해  고의적으로 작성된 정보
   * 스팸 메시지와 유사하게 제한된 단어들을 사용하며, 문법적인 실수 등 문맥상 공통적인 특징들을 가짐
-
+  * 가짜뉴스 탐지방법 : Content Based Detection, 
+  
 * 논문에서 학습에 사용되는 데이터
   - 데이터의 양 및 취득 방법(또는 경로)
     - PHEME dataset (Zubiaga et al., 2016b) : 특정 사건별로 트윗 정리
@@ -33,23 +40,11 @@ Prairie View A&M University, Texas A&M University System, Prairie View, Texas
   - 데이터 전처리 방법 : X
  
 * 논문에서 사용하는 알고리즘  
-  - 사용한 머신러닝 알고리즘 종류 : CNN
-  - 학습 방식 : 지도학습 / 비지도학습
+  - 사용한 머신러닝 알고리즘 종류 
+    1. Semi-Supervised Learning 
+  - 학습 방식 : Semi-Supervised Learning
   - 신경망을 사용할 경우 네트워크 내용
-    1. 공유 CNN
-        - 컨볼루션 레이어 3개 : 각각 128개(3×3) 필터 포함
-        - 최대 풀링(2×2) 레이어
-        - 컨볼루션 레이어 3개 : 각각 256개(3×3) 필터 포함
-        - 최대 풀링(2×2) 레이어
-    2. 지도학습 CNN
-        - 512개(3×3) 필터, 256개(3×3) 필터, 128개(3×3) 필터
-        - Softmax
-        - Cross entropy(교차 엔트로피 손실)
-    3. 비지도학습 CNN
-        - 512개(3×3) 필터, 256개(3×3) 필터, 128개(3×3) 필터
-        - Mean squared error(평균 제곱 오차)
-    4. 지도학습 CNN과 비지도학습 CNN의 결과를 동시에 최적화하기 위한 가중치 적용
-    5. 최적화
+    1. Graph Neural Networks 
     
     [사진 출처](https://www.researchgate.net/figure/Framework-of-deep-two-path-semi-supervised-learning-DTSL-Samples-x-i-are-inputs_fig1_333773193)
     
