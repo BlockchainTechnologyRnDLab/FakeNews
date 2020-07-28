@@ -36,7 +36,6 @@ Bown Dong, Philip S.Yu, BDSC Lab, University of Iilinois, USA
     |#node|articles|14,055|
     |     |creators|3,634|
     |     |subjects|153|
-    |--|--|--|
     |#link|creator-articles|14,055|
     |     |article-subject|48,756|
     
