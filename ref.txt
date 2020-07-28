@@ -57,5 +57,3 @@ P [Oluwaseun Ajao] Fake News Identification on Twitter with Hybrid CNN and RNN M
 P [Jiawei Zhang, Bowen Dong, Philip S. Yu] FAKEDETECTOR: Effective Fake News Detection with Deep Diffusive Neural Network, 2019
 
 P [Adrien Benamira] Semi-Supervised Learning and Graph NeuralNetworks for Fake News Detection, 2019 IEEE/ACM International Conference Advances in Social Networks Analysis and Mining, 2019
-
-P [Xishuang Dong] Two-path Deep Semi-supervised Learning forTimely Fake News Detection, 
