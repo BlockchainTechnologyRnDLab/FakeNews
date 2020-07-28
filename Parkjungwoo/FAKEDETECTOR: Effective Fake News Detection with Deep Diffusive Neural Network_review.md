@@ -50,9 +50,11 @@ Bown Dong, Philip S.Yu, BDSC Lab, University of Iilinois, USA
     
 * 논문에서 사용하는 알고리즘  
   - 사용한 머신러닝 알고리즘 종류 
-    - deep diffusive network model,hybrid feature learning unit (HFLU)
+    - deep diffusive network model,hybrid feature learning unit (HFLU),GRU(Gated Recurrent Unit),GDU(gated diffusive unit)
   - 학습 방식 : 
   - 신경망을 사용할 경우 네트워크 내용
+    RNN 모델 사용
+     3개의 레이어 (입력 레이어 : 1, 히든 레이어 : 출력 레이어 :1)
    
 
   - **(검토자 의견) 알고리즘이 논문에서 정의하는 가짜 뉴스를 검출하기에 적합한지 검토 의견** 
@@ -67,6 +69,6 @@ Bown Dong, Philip S.Yu, BDSC Lab, University of Iilinois, USA
     
      
   - **(검토자 의견) 논문 결과에 대한 객관성에 대한 검토의견** 
-
+    데이터셋에 대한 전처리가 상세히 나와 있음. 향후 개발시 데이터 전처리 작업 참고 할만함
 
 
