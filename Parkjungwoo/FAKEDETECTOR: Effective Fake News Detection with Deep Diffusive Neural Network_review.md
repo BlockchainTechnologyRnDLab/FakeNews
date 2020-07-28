@@ -23,20 +23,24 @@ Bown Dong, Philip S.Yu, BDSC Lab, University of Iilinois, USA
   - 데이터의 양 및 취득 방법(또는 경로)
     - PolitiFact 
     - 데이터의 양 : Twitter 계정의 PolitiFact의 모든 게시물(14,055개)과 PolitiFact 웹사이트(634개)에서 진술된 기사
-    Table명 : PROPERTIES OF THE HETEROGENEOUS NETWORKS
-property PolitiFact Network
-# node
-articles 14,055
-creators 3,634
-subjects 152
-# link
-creator-article 14,055
-article-subject 48,756
+     
+
     
   - 데이터 전처리 방법 : 
     - 뉴스주제에 따라 분류
     - 뉴스작성자의 프로필정보 및 뉴스 작성자의 신뢰성에 따른 분류
     - PolitiFact 데이터세트를 기사, 제작자 및 주제를 노드로 포함
+    
+    ||propery|PolitiFact Network|
+    |--|--|--|
+    |#node|articles|14,055|
+    |     |creators|3,634|
+    |     |subjects|153|
+    |--|--|--|
+    |#link|creator-articles|14,055|
+    |     |article-subject|48,756|
+    
+    
       - Test 데이터셋 주소 : https://twitter.com/PolitiFact , http://www.politifact.com
       1. 텍스트 내용을 사용한 기사 신뢰성 분석 : 6가지의 라벨로 분류(True, Mostly True, Half True, Mostly False, False, Pants on Fire)  
       2. 제작자 신뢰도 분석 : 공화당 vs 민주당 등으로 나누어 신뢰도 비율 분류 
