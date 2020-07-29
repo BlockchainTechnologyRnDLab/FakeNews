@@ -1,4 +1,4 @@
-## Detecting Incongruity between News Headline and Body Textvia a Deep Hierarchical Encoder
+# Detecting Incongruity between News Headline and Body Text via a Deep Hierarchical Encoder
 
 * 논문 저자 정보 (이름, 소속)   
 Seunghyun Yoon1,2, Kunwoo Park3,4, Joongbo Shin1, Hongjun Lim4   
