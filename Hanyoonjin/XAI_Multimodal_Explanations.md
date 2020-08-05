@@ -37,7 +37,7 @@ Dong Huk Park1, Lisa Anne Hendricks1, Zeynep Akata2,3, Anna Rohrbach1,3,Bernt Sc
   - 사용한 머신러닝 알고리즘 종류
     - CNN, LSTM
   - 학습 방식 : 지도학습
-  - 신경망을 사용할 경우 네트워크 내용
+  - 신경망을 사용할 경우 네트워크 내용   
   ![그림](https://storage.googleapis.com/groundai-web-prod/media%2Fusers%2Fuser_14%2Fproject_200103%2Fimages%2Fx6.png)   
   1. Answering model을 사용하여 입력된 이미지와 질문에 대한 답변을 예측함
       - CNN : 이미지 특징 추출
