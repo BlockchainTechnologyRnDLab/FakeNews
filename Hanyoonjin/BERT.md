@@ -12,7 +12,33 @@
 ※ 두 과정 모두 별도의 정답 없이 대용량 말뭉치 데이터로부터 자동으로 생성 가능
 
 ### Fine-tuning(응용 단계)
-- 언어처리, 텍스트 분류, 기계독해 등에 적용
+- 언어처리, 문장분류, 기계독해 등에 적용
 - 언어처리 : 개체명 인식, 구문 분석 등 언어처리 문제에 적용
 - 문장분류 : 단일 문장 주제 분류 또는 두 문장 사이의 유사성 분석 문제에 적용
 - 기계독해 : 질문과 단락을 입력 받은 후, 단락에서 정답 경계 인식 문제에 적용
+
+![BERT 기능](https://user-images.githubusercontent.com/60456487/89921360-8ff99800-dc38-11ea-9651-642da03bad88.png)
+   ###### 그림 출처 : [NLU Tech Talk with KorBERT](https://www.slideshare.net/LGCNSairesearch/nlu-tech-talk-with-korbert)
+
+## KorBERT
+- 한국어 BERT 언어 모델
+- 모델1 : 한국어의 특성을 반영한 형태소분석 기반의 언어 모델
+- 모델2 : 형태소분석을 수행하지 않은 어절 기반의 언어 모델
+
+### 기존 BERT와 KorBERT의 차이점
+- KorBERT는 토큰 입력시 형태소 분석을 하여 형태소 태그가 붙은 상태로 전달됨
+- 형태소 태그를 붙이면 문맥에 따라 해석이 달라짐 
+
+### Korean_BERT_Morphology	
+- 명사/동사에 조사/접미사가 결합된 어절을 의미의 최소 단위인 형태소로 구분하여 분석한 언어 모델
+- 어절 기반 언어 모델 보다 우수한 성능을 보임
+- 사용하기 위해서는 형태소 분석 API를 사용하여 형태소 분석 후 입력하여야 함
+
+### 형태소 분석 API
+- ETRI의 형태소 분석 API : 일 5,000건 횟수 제한
+- Saltlux의 ADAM과 카카오의 Khaii의 경우 ETRI의 태그와 동일하기에 사용 가능
+- 카카오의 Khaii 형태소 분석기가 분석 정확도가 높은 것으로 알려져있음
+
+![형분석기](https://user-images.githubusercontent.com/60456487/89919229-f6c98200-dc35-11ea-8f9a-be8019fec0f7.png)
+   ###### 그림 출처 : [자연어 언어모델 'BERT'_04 한국어 BERT](https://blog.naver.com/jeanmy1102/221747257049)
+
