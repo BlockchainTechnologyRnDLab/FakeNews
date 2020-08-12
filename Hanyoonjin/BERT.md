@@ -2,12 +2,13 @@
 - 딥러닝 자연어처리에서 단어를 벡터로 표현하는 단어임베딩은 필수적임
 - 심볼인 단어를 실수 벡터로 표현해야 뉴럴네트워크 적용 가능
 - BERT에서는 입력 문장의 단어에 대해서 뉴럴넷을 적용한 결과를 단어의 문맥 반영 벡터로 활용
+- Transformer의 Self-Attention 모델에서 인코더만을 사용함
 
 ### Pre-training(사전 학습)
-1. 공백 단어 예측
+1. 공백 단어 예측(MLM; Masked Language Model)
 - 입력 문장 중, 15%의 단어를 Masking 후 해당 단어를 맞히는 과정
 - 양방향 정보를 이용하여 단어 예측
-2. 문장 선후관계 예측
+2. 문장 선후관계 예측(NSP; Next Sentence Prediction)
 - 임의의 두 문장에 대해, 두 문장이 선/후 관계가 맞는지 맞히는 과정
 ※ 두 과정 모두 별도의 정답 없이 대용량 말뭉치 데이터로부터 자동으로 생성 가능
 
@@ -19,6 +20,28 @@
 
 ![BERT 기능](https://user-images.githubusercontent.com/60456487/89921360-8ff99800-dc38-11ea-9651-642da03bad88.png)
    ###### 그림 출처 : [NLU Tech Talk with KorBERT](https://www.slideshare.net/LGCNSairesearch/nlu-tech-talk-with-korbert)
+
+### BERT를 사용한 모델링
+- 일반 모델링 과정 : 분류를 원하는 데이터 → LSTM, CNN 등의 신경망 → 분류
+- BERT를 사용한 모델링 과정 : 대량의 말뭉치 → BERT 사전 학습 → 분류를 원하는 데이터 → LSTM, CNN 등의 신경망 → 분류
+- BERT 출력에 모델(신경망)을 추가시켜 원하는 결과를 수행
+- 간단한 DNN을 추가해도 다른 신경망과 성능 차이가 거의 없음
+
+### BERT의 내부 동작 과정
+1. Input
+- Token Embedding : 단어 단위로 토큰화
+- Segment Embedding : 토큰화 시킨 단어들을 하나의 문장으로 표현
+- Position Embedding : 토큰 순서 표현
+※ 두 문장을 구분시켜 각각 하나의 Segment로 지정하여 입력
+2. Pre-Training
+- MLM과 NSP 두 가지 방식을 사용하여 언어의 특성 학습
+- 둘 다 함께 사용하지만 BERT 논문에서는 MLM 방식이 학습에 더 좋은 성능을 보여주고 있다고 밝힘
+3. Transfer Learning
+- 실제 자연어처리를 수행하는 과정
+- 분류를 위한 모델을 추가하는 부분
+- 사전학습 모델 BERT를 Fine-tuning하여 사용할 분야에 맞게 재조정
+- Classificatoin 부분만 목적에 맞게 수정하여 새로 학습시킴
+
 
 ## KorBERT
 - 한국어 BERT 언어 모델
