@@ -4,33 +4,30 @@
 Rohit Kumar Kaliyar1, Anurag Goswami1, Pratik Narang2, Soumendu Sinha3
 1. Department of Computer Science Engineering, Bennett University, Greater Noida, India
 2. Department of CSIS, BITS Pilani, Rajasthan, India
-3. Smart Sensors Area, CSIR - Central Electronics Engineering Research Institute, Pilani, Rajasthan, India
+3. Smart Sensors Area, CSIR - Central Electronics Engineering Research Institute, Pilani, Rajasthan, India   
 2020/01
 
 * 논문에서 가짜뉴스를 검출하려는 뉴스 종류
   * 소셜 미디어의 텍스트 뉴스
 
 * 논문에서 정의하고 있는 가짜뉴스
-  * 문장에서 주제와 맞지 않고, 근거가 없는 선동적인 주장을 보이는 뉴스
+  * 주제와 맞지 않는 문장이 있고, 근거가 없는 주장을 보이는 내용
 
 * 논문에서 학습에 사용되는 데이터
   - 데이터의 양 및 취득 방법(또는 경로)
     - Kaggle 가짜뉴스 데이터셋
   - 데이터 전처리 방법
-    - GloVe(Global Vectors for Word Representation)을 사용한 단어 임베딩
+    - 사전 학습 임베딩 모델 GloVe(Global Vectors for Word Representation)를 사용한 단어 임베딩
       - Word2Vec : 중심 단어로 주변 단어를, 주변 단어로 중심 단어를 예측하는 과정에서 단어를 벡터로 임베딩
       - GloVe : 벡터로 임베딩하는 것은 같지만 병렬 구현으로 Word2Vec보다 대규모 데이터셋 학습에 유리
-      - 단어마다 가중치를 주게 되는데, the 및 an 같은 의미없는 중지 단어에는 가중치를 낮춰 학습에 방해되지 않게 함
-
-  -  **(검토자 의견) 데이터 객관성 여부에 대한 검토 의견**  
-
+      - 단어마다 가중치를 주게 되는데, the 및 an 같은 의미없는 불용어에는 가중치를 낮춰 학습에 방해되지 않게 함
 
 * 논문에서 사용하는 알고리즘  
   - 사용한 머신러닝 알고리즘 종류 : CNN
   - 학습 방식 : 지도학습
   - 신경망을 사용할 경우 네트워크 내용
     1. 입력 데이터 단어 임베딩
-    2. 3개의 컨볼루션 레이어+최대 풀링 레이어에 모두 같은 임베딩 벡터 통과
+    2. **커널 크기가 다른** 3개의 컨볼루션 레이어+최대 풀링 레이어에 모두 같은 벡터 통과
         - 중요한 단어의 수를 정확하게 정의하기 위하여
     3. 출력을 통합한 후 효율적인 결과를 위하여 2개의 컨볼루션 레이어 통과(활성화 함수 : ReLU)
     4. Flatten layer : 완전 연결 레이어로 전달하기 위해 컨볼루션을 거친 2차원 데이터를 1차원으로 변환
@@ -44,11 +41,7 @@ Rohit Kumar Kaliyar1, Anurag Goswami1, Pratik Narang2, Soumendu Sinha3
       |Dropout rate|0.2|
       |Activation function|ReLU|
 
-  - **(검토자 의견) 알고리즘이 논문에서 정의하는 가짜 뉴스를 검출하기에 적합한지 검토 의견** 
-
-
 * **오픈소스 공개 여부** 
-
 
 * 논문의 평가
   - 논문에서 주장하는 내용
@@ -72,6 +65,3 @@ Rohit Kumar Kaliyar1, Anurag Goswami1, Pratik Narang2, Soumendu Sinha3
       |GloVe|CNN|90.74|92.07|91.40|91.50|
       |GloVe|LSTM|99.20|95.49|97.31|97.25|
       |**GloVe**|**Our Proposed model (FNDNet)**|**99.40**|**96.88**|**98.12**|**98.36**|
-
-
-  - **(검토자 의견) 논문 결과에 대한 객관성에 대한 검토의견** 
