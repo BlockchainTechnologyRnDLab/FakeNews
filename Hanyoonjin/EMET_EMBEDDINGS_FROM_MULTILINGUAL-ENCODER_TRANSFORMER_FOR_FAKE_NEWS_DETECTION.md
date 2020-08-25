@@ -4,6 +4,8 @@
 Stephane Schwarz1, Antônio Theóphilo2, Anderson Rocha1      
 1. Institute of Computing – University of Campinas, Campinas/SP, Brazil      
 2. CTI Renato Archer, Campinas/SP, Brazil   
+2020/05   
+
 
 * 논문에서 가짜뉴스를 검출하려는 뉴스 종류
   * 소셜 미디어 텍스트 게시물
