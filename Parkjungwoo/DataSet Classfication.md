@@ -36,6 +36,10 @@
 |AI허브 AI데이터|다양|법률,특허,상식,대화 등 다양한 분야의 학습용 데이터 제공 (데이터 신청 별도 해야함)|http://www.aihub.or.kr/ai_data|
 |국립국어원 언어정보나눔터|다양|말뭉치, 대화 자료등등 방대한 한국어 데이터 제공 (학습을 위해서는 전처리가 많이 필요함)|https://ithub.korean.go.kr/user/total/database/corpusManager.do|
 
+- NER(Named-entity recognition) : 개체명인식
+- MRC(Machine Reading Comprehension) : 기계독해
+
+
  * dataset 참조 논문 
    - Fake News Detection on Social Media: A Data Mining Perspective 
    - 사이트 : https://arxiv.org/pdf/1708.01967.pdf 
