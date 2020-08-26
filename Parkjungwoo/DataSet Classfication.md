@@ -1,7 +1,5 @@
 # DATA SET 분류 작업.
 
-Dataset 라벨 좀더 상세히 분류하고 조사 할 것. DeepLearning 부분만 조사 인것인지, 전체적인 논문에 다 조사 
- 
  * 영어 DATA SET 
  
 |DATA SET 종류|DATA SET 획득경로|DATA SET 크기(단위:개)|DATA SET 라벨|정보제공자|
@@ -57,10 +55,10 @@ Dataset 라벨 좀더 상세히 분류하고 조사 할 것. DeepLearning 부분
 |논문명|DATA SET|
 |-----|--------|
 |A Benchmark Study on Machine Learning Methods for Fake News Detection|Liar, Fake or Real News, Combined Corpus|
-|A Deep Ensemble Framework for Fake News Detection and Classification|Liar, PolitiFact.com|
+|A Deep Ensemble Framework for Fake News Detection and Classification|Liar, PolitiFact|
 |A Deep Learning Approach for Automatic Detection of Fake News|FakeNewsATM, Celebrity|
 |EMET: EMBEDDINGS FROM MULTILINGUAL-ENCODER TRANSFORMER FOR FAKE NEWS DETECTION|Social Media : MediaEval Multimedia Benchmark(2015/16)|
-|Exploiting Multi-domain Visual Information for Fake News Detection|Social Media : MediaEval Multimedia Benchmark(2016),Weibo ACM 2017|
+|Exploiting Multi-domain Visual Information for Fake News Detection|Social Media : MediaEval Multimedia Benchmark(2016), Weibo|
 |Fake News Detection Using A Deep Neural Network|Kaggle|
 |Fake news detection using discourse segment structure analysis|Kaggle, Buzzfeed, Politifact|
 |Fake News Detection Using Machine Learning approaches- A systematic Review|리뷰논문으로 데이터셋 X|
@@ -69,15 +67,15 @@ Dataset 라벨 좀더 상세히 분류하고 조사 할 것. DeepLearning 부분
 |A Deep Learning Approach for Automatic Detection of Fake News|Fakenws AMT(AmazonMechanical Turk), Celebrity NEWS(web Crawled)|
 |BRENDA: Browser Extension for Fake News Detection|Politifact, SGD-LSTM 학습모델데이터(https://github.com/apepa/claim-rank/tree/master/data)|
 |CSI: A Hybrid Deep Model for Fake News Detection|Twitter, Webio|
-|DeClarE: Debunking Fake News and False Claimsusing Evidence-Aware Deep Learning|Snopes, Politifact,SemEval, NewsTrust|
-|Deep Diffusive Neural Network based Fake NewsDetection from Heterogeneous Social Networks|Politifact,Liar|
+|DeClarE: Debunking Fake News and False Claimsusing Evidence-Aware Deep Learning|Snopes, Politifact, SemEval, NewsTrust|
+|Deep Diffusive Neural Network based Fake NewsDetection from Heterogeneous Social Networks|Politifact, Liar|
 |Detecting Fake News using Machine Learning Algorithms|Doc 문서 열수없음.|
 |Detecting Fake News using Machine Learning and Deep Learning Algorithms|Twitter(Chile Earthquake Dataset 2010)|
-|Fake News Detection Using Deep Learning Techniques|Liar,PHEME|
+|Fake News Detection Using Deep Learning Techniques|Liar, PHEME|
 |Fake News Detection: A Deep Learning Approach|FNC-1|
 |FNDNet- A deep convolutional neural network for fake news detection|Kaggle|
 |TI-CNN: Convolutional Neural Networks for FakeNews Detection|Kaggel, 실제뉴스(뉴욕타임즈,워시텅포스트)크롤링|
-|exBAKE: Automatic Fake News Detection Model Based on Bidirectional Encoder Representations from Transformers|          |
+|exBAKE: Automatic Fake News Detection Model Based on Bidirectional Encoder Representations from Transformers|문서 확인X|
 |A Deep Ensemble Framework for Fake NewsDetection and Classification|Kaggle, Liar|
 |Deep Two-path Semi-supervised Learning for Fake News Detection|Twitter, PHEME|
 |Detecting Incongruity between News Headline and Body Textvia a Deep Hierarchical Encoder|FNC-1|
