@@ -22,19 +22,8 @@
 |------|---|---|---|---|
 |Kinds|News,article|200(더조사해보아야함)|tree-grade|한국언론진흥재단| 
 |...|..|...|..|
- 
- * dataset 참조 논문 
-   - Fake News Detection on Social Media: A Data Mining Perspective 
-   - 사이트 : https://arxiv.org/pdf/1708.01967.pdf 
-                    
- * 주소 
-   - 한국어
-   1. SNU FactCheck : http://factcheck.snu.ac.kr/
-   2. Kinds : https://www.bigkinds.or.kr/
-   3. 한국어 BERT 모델 : http://aiopen.etri.re.kr/service_dataset.php
-   4. SKT KoBERT 모델 : https://github.com/SKTBrain/KoBERT
-   
-|코퍼스명|용도|설명|링크|
+
+|Data SET 종류|용도|설명|링크|
 |------|---|---|---|
 |Kinds|다양|모든 언론사들의 뉴스|https://www.bigkinds.or.kr/|
 |Naver sentiment movie corpus v1.0|분류|네이버 영화 리뷰 (긍정, 부정) 분류 라벨링 됨|https://github.com/e9t/nsmc|
@@ -46,7 +35,17 @@
 |KorQuAD 2.1|MRC|MRC 용 Wikipedia에 대한 질문 답변 데이터 (1.0 보다 데이터가 큼)|https://korquad.github.io/
 |AI허브 AI데이터|다양|법률,특허,상식,대화 등 다양한 분야의 학습용 데이터 제공 (데이터 신청 별도 해야함)|http://www.aihub.or.kr/ai_data|
 |국립국어원 언어정보나눔터|다양|말뭉치, 대화 자료등등 방대한 한국어 데이터 제공 (학습을 위해서는 전처리가 많이 필요함)|https://ithub.korean.go.kr/user/total/database/corpusManager.do|
-   
+
+ * dataset 참조 논문 
+   - Fake News Detection on Social Media: A Data Mining Perspective 
+   - 사이트 : https://arxiv.org/pdf/1708.01967.pdf 
+                    
+ * 주소 
+   - 한국어
+   1. SNU FactCheck : http://factcheck.snu.ac.kr/
+   2. Kinds : https://www.bigkinds.or.kr/
+   3. 한국어 BERT 모델 : http://aiopen.etri.re.kr/service_dataset.php
+   4. SKT KoBERT 모델 : https://github.com/SKTBrain/KoBERT
    
    - 영어
    1. kaggle : https://kaggle.com , https://www.kaggle.com/mrisdal/fake-news
