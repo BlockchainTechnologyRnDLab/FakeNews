@@ -35,6 +35,9 @@
 |KorQuAD 2.1|MRC|MRC 용 Wikipedia에 대한 질문 답변 데이터 (1.0 보다 데이터가 큼)|https://korquad.github.io/
 |AI허브 AI데이터|다양|법률,특허,상식,대화 등 다양한 분야의 학습용 데이터 제공 (데이터 신청 별도 해야함)|http://www.aihub.or.kr/ai_data|
 |국립국어원 언어정보나눔터|다양|말뭉치, 대화 자료등등 방대한 한국어 데이터 제공 (학습을 위해서는 전처리가 많이 필요함)|https://ithub.korean.go.kr/user/total/database/corpusManager.do|
+|한국어 BERT|-|한국어 BERT 모델 데이터|http://aiopen.etri.re.kr/service_dataset.php|
+|SKT koBERT|-|SKT에서 제공하는 KoBERT 모델 데이터|https://github.com/SKTBrain/KoBERT|
+|SNU FactCheck|다양|미국에서 운영하는 FactCheck와 유사한 사이트|http://factcheck.snu.ac.kr/|
 
 - NER(Named-entity recognition) : 개체명인식
 - MRC(Machine Reading Comprehension) : 기계독해
@@ -44,13 +47,7 @@
    - Fake News Detection on Social Media: A Data Mining Perspective  -> 향후 이런류의 논문을 찾아 조금더 상세히 분류 할 수 있을 것으로 예상 됨.
    - 사이트 : https://arxiv.org/pdf/1708.01967.pdf 
                     
- * 주소 
-   - 한국어
-   1. SNU FactCheck : http://factcheck.snu.ac.kr/
-   2. Kinds : https://www.bigkinds.or.kr/
-   3. 한국어 BERT 모델 : http://aiopen.etri.re.kr/service_dataset.php
-   4. SKT KoBERT 모델 : https://github.com/SKTBrain/KoBERT
-   
+ * 논문에서 사용된 데이터셋 주소    
    - 영어
    1. kaggle : https://kaggle.com , https://www.kaggle.com/mrisdal/fake-news
    2. Fever :  http://fever.ai , https://github.com/awslabs/fever , https://github.com/sheffieldnlp/fever-baselines
