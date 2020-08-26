@@ -25,12 +25,13 @@ Dataset 라벨 좀더 상세히 분류하고 조사 할 것. DeepLearning 부분
 |Kinds|News,article|200(더조사해보아야함)|tree-grade|한국언론진흥재단| 
 |...|..|...|..|
  
- * dataset 참조 논문 : Fake News Detection on Social Media:A Data Mining Perspective https://arxiv.org/pdf/1708.01967.pdf 
+ * dataset 참조 논문 
+   - Fake News Detection on Social Media:A Data Mining Perspective https://arxiv.org/pdf/1708.01967.pdf 
                     
  * 주소 
-  kaggle : https://kaggle.com , https://www.kaggle.com/mrisdal/fake-news
-  Fever :  http://fever.ai , https://github.com/awslabs/fever , https://github.com/sheffieldnlp/fever-baselines
-  Emergent : http://www.emergent.info/led-zeppelin-contract
+   1. kaggle : https://kaggle.com , https://www.kaggle.com/mrisdal/fake-news
+   2. Fever :  http://fever.ai , https://github.com/awslabs/fever , https://github.com/sheffieldnlp/fever-baselines
+   3. Emergent : http://www.emergent.info/led-zeppelin-contract
   CREDBANK : http://compsocial.github.io/CREDBANK-data/
   Liar : https://www.cs.ucsb.edu/ , https://www.cs.ucsb.edu/~william/data/liar_dataset.zip
   BuzzFeed : https://github.com/BuzzFeedNews/2016-10-facebook-fact-check/tree/master/data
