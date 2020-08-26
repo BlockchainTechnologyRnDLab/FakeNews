@@ -76,4 +76,4 @@ Dataset 라벨 좀더 상세히 분류하고 조사 할 것. DeepLearning 부분
 |Detecting Incongruity between News Headline and Body Textvia a Deep Hierarchical Encoder|FNC-1|
 |Fake News Identification on Twitter with Hybrid CNN and RNN Models|PHEME|
 |FAKEDETECTOR: Effective Fake News Detection with Deep Diffusive Neural Network|PolitiFact|
-|Semi-Supervised Learning and Graph NeuralNetworks for Fake News Detection|Buzzfeed,자신들의 모델링 뉴스(https://github.com/rpitrust/fakenewsdata1),[Burfoot and Baldwin 2009|
+|Semi-Supervised Learning and Graph NeuralNetworks for Fake News Detection|Buzzfeed,자신들의 모델링 뉴스(https://github.com/rpitrust/fakenewsdata1), Burfoot and Baldwin 2009|
