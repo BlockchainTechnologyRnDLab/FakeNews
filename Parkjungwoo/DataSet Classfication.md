@@ -30,6 +30,11 @@ Dataset 라벨 좀더 상세히 분류하고 조사 할 것. DeepLearning 부분
    - 사이트 : https://arxiv.org/pdf/1708.01967.pdf 
                     
  * 주소 
+   - 한국어
+   1. SNU FactCheck : http://factcheck.snu.ac.kr/
+   2. Kinds : https://www.bigkinds.or.kr/
+   
+   - 영어
    1. kaggle : https://kaggle.com , https://www.kaggle.com/mrisdal/fake-news
    2. Fever :  http://fever.ai , https://github.com/awslabs/fever , https://github.com/sheffieldnlp/fever-baselines
    3. Emergent : http://www.emergent.info/led-zeppelin-contract
