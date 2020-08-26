@@ -26,25 +26,26 @@ Dataset 라벨 좀더 상세히 분류하고 조사 할 것. DeepLearning 부분
 |...|..|...|..|
  
  * dataset 참조 논문 
-   - Fake News Detection on Social Media:A Data Mining Perspective https://arxiv.org/pdf/1708.01967.pdf 
+   - Fake News Detection on Social Media: A Data Mining Perspective 
+   - 사이트 : https://arxiv.org/pdf/1708.01967.pdf 
                     
  * 주소 
    1. kaggle : https://kaggle.com , https://www.kaggle.com/mrisdal/fake-news
    2. Fever :  http://fever.ai , https://github.com/awslabs/fever , https://github.com/sheffieldnlp/fever-baselines
    3. Emergent : http://www.emergent.info/led-zeppelin-contract
-  CREDBANK : http://compsocial.github.io/CREDBANK-data/
-  Liar : https://www.cs.ucsb.edu/ , https://www.cs.ucsb.edu/~william/data/liar_dataset.zip
-  BuzzFeed : https://github.com/BuzzFeedNews/2016-10-facebook-fact-check/tree/master/data
-  George Mcintre : https://www.quora.com/What-are-some-datasets-about-fake-news
-  FakeNewsNET : https://github.com/KaiDMML/FakeNewsNet
-  FNC-1 : http://www.fakenewschallenge.org/
-  Politifact : https://www.politifact.com/
-  MediaEval Multimedia 2015 : http://www:multimediaeval:org/mediaeval2015/verifyingmultimediause
-  MediaEval Multimedia 2016 : http://www:multimediaeval:org/mediaeval2016/verifyingmultimediause
-  Twitter : www.twitter.com
-  weibo : www.weibo.com
-  Snopes : www.snopes.com
-  PHEME : https://www.pheme.eu/
+   4. CREDBANK : http://compsocial.github.io/CREDBANK-data/
+   5. Liar : https://www.cs.ucsb.edu/ , https://www.cs.ucsb.edu/~william/data/liar_dataset.zip
+   6. BuzzFeed : https://github.com/BuzzFeedNews/2016-10-facebook-fact-check/tree/master/data
+   7. George Mcintre : https://www.quora.com/What-are-some-datasets-about-fake-news
+   8. FakeNewsNET : https://github.com/KaiDMML/FakeNewsNet
+   9. FNC-1 : http://www.fakenewschallenge.org/
+   10. Politifact : https://www.politifact.com/
+   11. MediaEval Multimedia 2015 : http://www:multimediaeval:org/mediaeval2015/verifyingmultimediause
+   12. MediaEval Multimedia 2016 : http://www:multimediaeval:org/mediaeval2016/verifyingmultimediause
+   13. Twitter : www.twitter.com
+   14. weibo : www.weibo.com
+   15. Snopes : www.snopes.com
+   16. PHEME : https://www.pheme.eu/
   
  * 논문에 따른 DataSet 정리
 
