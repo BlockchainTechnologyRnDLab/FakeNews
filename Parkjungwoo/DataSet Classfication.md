@@ -91,7 +91,7 @@
 |Fake News Detection: A Deep Learning Approach|FNC-1|
 |FNDNet- A deep convolutional neural network for fake news detection|Kaggle|
 |TI-CNN: Convolutional Neural Networks for FakeNews Detection|Kaggel, 실제뉴스(뉴욕타임즈,워시텅포스트)크롤링|
-|exBAKE: Automatic Fake News Detection Model Based on Bidirectional Encoder Representations from Transformers|문서 확인X|
+|exBAKE: Automatic Fake News Detection Model Based on Bidirectional Encoder Representations from Transformers|CNN문서, 데일리메일, FNC-1|
 |A Deep Ensemble Framework for Fake NewsDetection and Classification|Kaggle, Liar|
 |Deep Two-path Semi-supervised Learning for Fake News Detection|Twitter, PHEME|
 |Detecting Incongruity between News Headline and Body Textvia a Deep Hierarchical Encoder|FNC-1|
