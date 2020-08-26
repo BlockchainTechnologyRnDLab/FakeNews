@@ -31,6 +31,8 @@
    - 한국어
    1. SNU FactCheck : http://factcheck.snu.ac.kr/
    2. Kinds : https://www.bigkinds.or.kr/
+   3. 한국어 BERT 모델 : http://aiopen.etri.re.kr/service_dataset.php
+   4. SKT KoBERT 모델 : https://github.com/SKTBrain/KoBERT
    
    - 영어
    1. kaggle : https://kaggle.com , https://www.kaggle.com/mrisdal/fake-news
