@@ -41,7 +41,7 @@
 
 
  * dataset 참조 논문 
-   - Fake News Detection on Social Media: A Data Mining Perspective 
+   - Fake News Detection on Social Media: A Data Mining Perspective  -> 향후 이런류의 논문을 찾아 조금더 상세히 분류 할 수 있을 것으로 예상 됨.
    - 사이트 : https://arxiv.org/pdf/1708.01967.pdf 
                     
  * 주소 
