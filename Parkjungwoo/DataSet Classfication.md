@@ -85,7 +85,7 @@
 |CSI: A Hybrid Deep Model for Fake News Detection|Twitter, Webio|
 |DeClarE: Debunking Fake News and False Claimsusing Evidence-Aware Deep Learning|Snopes, Politifact, SemEval, NewsTrust|
 |Deep Diffusive Neural Network based Fake NewsDetection from Heterogeneous Social Networks|Politifact, Liar|
-|Detecting Fake News using Machine Learning Algorithms|Doc 문서 열수없음.|
+|Detecting Fake News using Machine Learning Algorithms|Twitter|
 |Detecting Fake News using Machine Learning and Deep Learning Algorithms|Twitter(Chile Earthquake Dataset 2010)|
 |Fake News Detection Using Deep Learning Techniques|Liar, PHEME|
 |Fake News Detection: A Deep Learning Approach|FNC-1|
