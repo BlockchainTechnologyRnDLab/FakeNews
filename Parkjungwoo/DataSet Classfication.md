@@ -37,7 +37,7 @@
 |국립국어원 언어정보나눔터|다양|말뭉치, 대화 자료등등 방대한 한국어 데이터 제공 (학습을 위해서는 전처리가 많이 필요함)|https://ithub.korean.go.kr/user/total/database/corpusManager.do|
 |한국어 BERT|-|한국어 BERT 모델 데이터|http://aiopen.etri.re.kr/service_dataset.php|
 |SKT koBERT|-|SKT에서 제공하는 KoBERT 모델 데이터|https://github.com/SKTBrain/KoBERT|
-|SNU FactCheck|다양|미국에서 운영하는 FactCheck와 유사한 사이트|http://factcheck.snu.ac.kr/|
+|SNU FactCheck|다양|미국에서 운영하는 PolitiFact(FactCheck)와 유사한 사이트|http://factcheck.snu.ac.kr/|
 
 - NER(Named-entity recognition) : 개체명인식
 - MRC(Machine Reading Comprehension) : 기계독해
