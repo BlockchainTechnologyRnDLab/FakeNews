@@ -73,7 +73,7 @@
 |A Benchmark Study on Machine Learning Methods for Fake News Detection|Liar, Fake or Real News, Combined Corpus|
 |A Deep Ensemble Framework for Fake News Detection and Classification|Liar, PolitiFact|
 |A Deep Learning Approach for Automatic Detection of Fake News|FakeNewsATM, Celebrity|
-|EMET: EMBEDDINGS FROM MULTILINGUAL-ENCODER TRANSFORMER FOR FAKE NEWS DETECTION|Social Media : MediaEval Multimedia Benchmark(2015/16)|
+|EMET: EMBEDDINGS FROM MULTILINGUAL-ENCODER TRANSFORMER FOR FAKE NEWS DETECTION|Social Media : MediaEval Multimedia Benchmark(2015/16), Tweet 댓글, 관련뉴스|
 |Exploiting Multi-domain Visual Information for Fake News Detection|Social Media : MediaEval Multimedia Benchmark(2016), Weibo|
 |Fake News Detection Using A Deep Neural Network|Kaggle|
 |Fake news detection using discourse segment structure analysis|Kaggle, Buzzfeed, Politifact|
