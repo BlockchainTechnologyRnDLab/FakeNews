@@ -41,9 +41,9 @@
 |Chatbot_data|분류|채팅 대화 (일상,긍정,부정) 분류 라벨링 됨|https://github.com/songys/Chatbot_data|
 |청와대 국민청원 사이트의 만료된 청원 데이터 모음|RAW|일자,카테고리,제목,내용 등 만료된 청원 Raw 데이터|https://github.com/akngs/petitions|
 |Korean NER Corpus|NER|한국어 NER 용 데이터 (NER, 형태소)|https://github.com/machinereading/KoreanNERCorpus|
-|Korean Parallel corpora|번역|번역용 한국어/영어, 한국어/불어|병렬 데이터|https://github.com/j-min/korean-parallel-corpora|
-|KorQuAD 1.0 	MRC|MRC 용 Wikipedia에 대한 질문 답변 데이터|https://korquad.github.io/category/1.0_KOR.html|
-|KorQuAD 2.1 	MRC|MRC 용 Wikipedia에 대한 질문 답변 데이터 (1.0 보다 데이터가 큼)|https://korquad.github.io/
+|Korean Parallel corpora|번역|번역용 한국어/영어, 한국어/불어 병렬 데이터|https://github.com/j-min/korean-parallel-corpora|
+|KorQuAD 1.0|MRC|MRC 용 Wikipedia에 대한 질문 답변 데이터|https://korquad.github.io/category/1.0_KOR.html|
+|KorQuAD 2.1|MRC|MRC 용 Wikipedia에 대한 질문 답변 데이터 (1.0 보다 데이터가 큼)|https://korquad.github.io/
 |AI허브 AI데이터|다양|법률,특허,상식,대화 등 다양한 분야의 학습용 데이터 제공 (데이터 신청 별도 해야함)|http://www.aihub.or.kr/ai_data|
 |국립국어원 언어정보나눔터|다양|말뭉치, 대화 자료등등 방대한 한국어 데이터 제공 (학습을 위해서는 전처리가 많이 필요함)|https://ithub.korean.go.kr/user/total/database/corpusManager.do|
    
