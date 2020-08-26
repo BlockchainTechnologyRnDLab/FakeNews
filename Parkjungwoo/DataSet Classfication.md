@@ -82,7 +82,7 @@
 |A Benchmark Study on Machine Learning Methods for Fake NewsDetection|Liar, Fake or RealNews(GeorgeMcintire,Kaggle)|
 |A Deep Learning Approach for Automatic Detection of Fake News|Fakenws AMT(AmazonMechanical Turk), Celebrity NEWS(web Crawled)|
 |BRENDA: Browser Extension for Fake News Detection|Politifact, SGD-LSTM 학습모델데이터(https://github.com/apepa/claim-rank/tree/master/data)|
-|CSI: A Hybrid Deep Model for Fake News Detection|Twitter, Webio|
+|CSI: A Hybrid Deep Model for Fake News Detection|Twitter, Weibo|
 |DeClarE: Debunking Fake News and False Claimsusing Evidence-Aware Deep Learning|Snopes, Politifact, SemEval, NewsTrust|
 |Deep Diffusive Neural Network based Fake NewsDetection from Heterogeneous Social Networks|Politifact, Liar|
 |Detecting Fake News using Machine Learning Algorithms|Twitter|
