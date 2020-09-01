@@ -41,8 +41,8 @@ Rohit Kumar Kaliyar1, Anurag Goswami1, Pratik Narang2, Soumendu Sinha3
       |Dropout rate|0.2|
       |Activation function|ReLU|
       
-![그림](https://ars.els-cdn.com/content/image/1-s2.0-S1389041720300085-gr2.jpg)   
-###### 그림 출처 : [ScienceDirect : FNDNet – A deep convolutional neural network for fake news detection](https://www.sciencedirect.com/science/article/abs/pii/S1389041720300085)
+     ![그림](https://ars.els-cdn.com/content/image/1-s2.0-S1389041720300085-gr2.jpg)   
+     ###### 그림 출처 : [ScienceDirect : FNDNet – A deep convolutional neural network for fake news detection](https://www.sciencedirect.com/science/article/abs/pii/S1389041720300085)
 
 * **오픈소스 공개 여부** 
 
