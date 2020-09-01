@@ -25,7 +25,7 @@ Rohit Kumar Kaliyar1, Anurag Goswami1, Pratik Narang2, Soumendu Sinha3
 * 논문에서 사용하는 알고리즘  
   - 사용한 머신러닝 알고리즘 종류 : CNN
   - 학습 방식 : 지도학습
-  - 신경망을 사용할 경우 네트워크 내용
+  - 신경망을 사용할 경우 네트워크 내용  
     1. 입력 데이터 단어 임베딩
     2. **커널 크기가 다른** 3개의 컨볼루션 레이어+최대 풀링 레이어에 모두 같은 벡터 통과
         - 중요한 단어의 수를 정확하게 정의하기 위하여
@@ -40,6 +40,9 @@ Rohit Kumar Kaliyar1, Anurag Goswami1, Pratik Narang2, Soumendu Sinha3
       |No. of dense layers|4|
       |Dropout rate|0.2|
       |Activation function|ReLU|
+      
+![그림](https://ars.els-cdn.com/content/image/1-s2.0-S1389041720300085-gr2.jpg)   
+###### 그림 출처 : [ScienceDirect : FNDNet – A deep convolutional neural network for fake news detection](https://www.sciencedirect.com/science/article/abs/pii/S1389041720300085)
 
 * **오픈소스 공개 여부** 
 
