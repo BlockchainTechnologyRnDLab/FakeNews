@@ -1,3 +1,5 @@
+## Fake News Detection Open Source
+
 ### [DeClare](https://github.com/atulkumarin/DeClare)
 - 판별이 필요한 데이터의 주제와 관련된 기사를 웹 크롤링을 통해 수집하여 LSTM을 사용한 비교
 
