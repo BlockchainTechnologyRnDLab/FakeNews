@@ -51,3 +51,7 @@ from transformers import BertForSequenceClassification
 
 
 ###### ※ BertForSequenceClassification 대신 BertModel 모듈을 가져와서 따로 분류 계층을 생성할 수 있음
+
+
+##### [Model의 Layer와 Head에 따라 다르게 계산되는 단어들의 연관성](https://colab.research.google.com/drive/1BqsoZ4Ljbj_FlZFhnIV1jygU4oIDZAu-?usp=sharing)
+##### [Head에 따라 다르게 생성되는 Attention](https://colab.research.google.com/drive/1f07ajoGRB9nTLAAPNilVrPNQ-YxdLFSv?usp=sharing)
