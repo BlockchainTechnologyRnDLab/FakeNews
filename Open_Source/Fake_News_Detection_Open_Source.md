@@ -33,3 +33,5 @@
 ### [Stance Detection](https://github.com/ourownstory/stance_detection)
 - LSTM 기반 가짜뉴스 탐지
 
+### [CVPcorp](https://github.com/CVPcorp/example-notebooks)
+- BERT 기반 가짜뉴스 탐지
