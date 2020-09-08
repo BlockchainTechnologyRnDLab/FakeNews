@@ -1,4 +1,4 @@
-## BERT 기반 가짜뉴스 예측
+## [BERT 기반 가짜뉴스 예측](https://drive.google.com/file/d/1XqAEi9XgRsQ_bz66JdiodkR191UCa89Z/view?usp=sharing)
 
 1. 데이터 업로드
 2. 모듈 import
