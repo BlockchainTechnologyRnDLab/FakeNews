@@ -10,10 +10,10 @@ Seungpil Won1, **Meeyoung Cha**4,5, Kyomin Jung1,2
 5. Data Science Group, Institute for Basic Science (IBS), Daejeon, Korea   
 
 * 논문에서 가짜뉴스를 검출하려는 뉴스 종류
-  * 텍스트 뉴스, ClickBait, 광고
+  * 텍스트 기사
 
 * 논문에서 정의하고 있는 가짜뉴스
-  * 뉴스 제목이 본문의 내용을 올바르게 나타내지 않은 정보
+  * 제목과 본문의 내용이 연관성이 없는 기사
 
 * 논문에서 학습에 사용되는 데이터
   - 데이터의 양 및 취득 방법(또는 경로)
