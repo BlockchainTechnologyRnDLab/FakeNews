@@ -40,7 +40,7 @@ Los Angeles, California
 3) Integrate : 1, 2 모듈의 정보를 결합하여 각 기사를 진짜/가짜로 분류함   
 -> 모듈은 독자적으로 학습할 수 있으며, 이를 결합하여 기사의 가짜 분류와, 사용자(작성자)의 의심 점수에 대한 예측를 제공함
 
-* **오픈소스 공개 여부 : X**
+* **오픈소스 공개 여부 : [CSI Open Source](https://github.com/sungyongs/CSI-Code)**
 
 * 논문의 평가
   - 논문에서 주장하는 내용
