@@ -37,7 +37,7 @@
  1. CBOW Model(Continuous Bag of Words Model)
     - 정리
       - 주변단어를 통해서 주어진 단어가 무엇인지 찾는것.
-      - 정확히는 앞뒤로 C/2개의 단어를(총 C개) 통해 주어진 단어를 예측
+      - 정확히는 앞뒤로 C/2개의 단어를(총 C개) 통해<평균값> 주어진 단어를 예측
       - 목적 : 주변단어들이 주어졌을때 중심단어의 조건부 확률을 최대화 하는 것.
     - 네트워크 진행과정 
       - 학습시킬 문장의 모든단어를 one-hot encoding 방식으로 벡터화 함. 0과 1의 벡터로 구성
@@ -79,6 +79,29 @@
       - 오타가 섞인단어는 당연히 등장 빈도수가 매우적으므로 일종의 희귀 단어가 된다. Word2Vec에서는 오타가 섞인 단어는 임베딩이 제대로 되지않지만 FastText는 이에 대해서도 일정 수준의 성능을 보임.
       - CBOW 모델이나 FastText와 같은 word embedding 방식은 동형어, 다의어 등에 대해선 embedding 성능이 좋지 못하다는 단점.
       - 주변 단어를 통해 학습이 이루어지기 때문에, '문맥'을 고려할 수 없음.
-      
-     
+ 4. BERT 
+    - 정리
+      - BERT는 문맥에 의존하는 특징적인 표현의 전학습(deep-양방향 문맥고려)을 실시하는 대응을 바탕으로 구축
+      - deep-양방향 문맥고려 : DNN 최하층에서 이용해 특징을 표현 Ex) A와 B의 두개의 글을 받았을때, B가 A의 뒤에오는 실제문장인지, 코퍼스 안의 랜덤한 글인지 판정
+    - 임베딩 방법 
+      - Token Embedding : Word Piece 임베딩 방식 사용, 가장 긴 길이의 Sub-word를 하나의 단위로 만듦, 자주등장하는 sub-word는 그자체의 단위, 자주등장하지않는 단어는 sub-word로 쪼개짐
+      - Sentence Embedding : [CLS] : 분류할 문장 쌍의 시작 토큰, [SEP] : 문장 쌍을 각 문장으로 분리하는 토큰.
+                두개의 문장을 문장구분 토큰과 합쳐서 넣음, 입력길이 두문장을 합쳐 512 subword로 제한, 대개 문장 입력길이를 128로 제한하고 학습, 128보다 긴입력들을 따로 모아 추가학습
+      - Position Embedding : Transformer 모델에서 Self-Attention 모델 사용. Self-Attention 모델 입력위치에 대해 고려하지 못하므로 입력 토큰 위치정보 제공 해야 함.   
+      => 3가지의 입력 임베딩을 취합하여 하나의 임베딩값으로 만듦.
+    - 학습 방법
+      - BERT 두가지버전 : BERT-base(L=12, H=768, A=12), BERT-large(L=24, H=1024, A=16) 은 Transformer 블록의 숫자이고 H는 hidden size, A는 Transformer의 Attention block 숫자
+      - MLM과 NSP 사용
+        - MLM : Token을 마스킹하고 그 Token을 맞추는 방식   
+        문장의 빈칸채우기 문제 연상. 한단어를 통째로 마스킹하는 whole word masking 방법도 있음.
+        - NSP : 두문장이 주어졌을때, 순서 예측하는 방식. NLI와 QA의 fine-tunning을 위해 연관이 있는 맞추도록 학습.   
+        => 학습된 언어모델을 전이학습시켜 실제 NLP Task 수행
+
+  5. 비교
+ 
+ |모델|문맥의 의존성|임베딩 방법|
+ |---|-------------|---------|
+ |CBOW|문맥에 의존 X|One-hot Encoding방식 0/1로 구성, 앞뒤로 C/2개의 단어를 통해<평균값> 주어진 단어 예측|
+ |FaxtText|문맥에 의존 X|n-gram방식 n의 갯수로 단어분리, 특별 토큰추가 하여 임베딩|
+ |BERT|문맥에 의존 O|Token+Sentence+Position 임베딩|
 
