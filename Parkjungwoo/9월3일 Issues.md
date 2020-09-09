@@ -34,7 +34,7 @@
 
 
 * SNU FACTCHECK 데이터를 활용하는 논문에서 어떤 데이터를 활용하였나? 
-  - 작업하지 못하였습니다... 
+  - 논문들 리뷰를 확인 하고 찾아보는 중에 있습니다. 다음주까지 조사해오겠습니다.
   
 * CBOW Model, Fast Text Model가 BERT와의 차이점
  1. CBOW Model(Continuous Bag of Words Model)
