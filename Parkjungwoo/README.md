@@ -1,5 +1,4 @@
- * zake7749 실행해보기
-   - https://github.com/zake7749/WSDM-Cup-2019/tree/master/zake7749/data/bert
- * 실제 데이터 셋이 가지고 있는 필드 정보
- * SNU FACTCHECK 데이터를 활용하는 논문에서 어떤 데이터를 활용하였나?
- * CBOW model, Fast Text Model가 BERT와의 차이점
+ * 가짜 뉴스 데이터 셋의 필드 정보 정리
+ * 가짜 뉴스 검출 한글 논문에서 사용하는 한글 뉴스에 대한 데이터 셋 정리 (필드 정보)
+ * SNU FACTCHECK 데이터 중 가짜뉴스 검출 시스템에서 활용할 수 있는 데이터 크롤릴 방법 도출
+
