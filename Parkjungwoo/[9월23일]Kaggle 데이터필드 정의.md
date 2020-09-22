@@ -22,3 +22,5 @@
 |8|Covid_public_datset|title / date / author / url / content / topic area|
 |9|News Data Set - Fake OR Real|title / text / label(True/Fake)|
 |10|Fake news|id / title / author / text|
+
+## 영어 대비 한글 데이터셋 SNU-FN 필드명을 추출하고 정의
