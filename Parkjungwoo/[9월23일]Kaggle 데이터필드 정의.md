@@ -24,3 +24,6 @@
 |10|Fake news|id / title / author / text|
 
 ## 영어 대비 한글 데이터셋 SNU-FN 필드명을 추출하고 정의
+ * SNU_FACT 뉴스 필드명 
+   - 제목(title), 발언자(authors), 발언자의 직업(authors-job),주장(claim), 제목(title), 본문(text), 뉴스종류(category), 출처(url), 진실/거짓(Label)
+   - Liar 와 Emergent 데이터셋과 유사
