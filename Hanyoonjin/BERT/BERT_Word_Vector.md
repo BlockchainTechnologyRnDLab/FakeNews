@@ -1,4 +1,5 @@
 ## BERT Word Vector
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oOK5MD4tqNynsiCWCvdmUHnr-KinVeQf?usp=sharing)
 - BERT Encoder 과정에서 출력되는 토큰의 벡터를 사용하여 유사성 비교
 - 결과물을 시각화하여 보여줄 수 있도록 시도
 
