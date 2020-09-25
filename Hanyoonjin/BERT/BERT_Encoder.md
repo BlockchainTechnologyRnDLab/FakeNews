@@ -4,7 +4,7 @@
 
 #
 
-### Scaled Dot Product Attention
+### Scaled Dot Product Attention : Self-Attention이 일어나는 단계
 ``` python
 class ScaledDotProductAttention(nn.Module):
     def __init__(self, config):
@@ -16,7 +16,7 @@ class ScaledDotProductAttention(nn.Module):
     def forward(self, Q, K, V, attn_mask):
         scores = torch.matmul(Q, K.transpose(-1, -2))     // Query와 Key의 단어 유사도 측정
         scores = scores.mul_(self.scale)
-        scores.masked_fill_(attn_mask, -1e9)     // 마스크 적용
+        scores.masked_fill_(attn_mask, -1e9)     // word가 아닌 부분(padding된 부분)을 구분
 
         attn_prob = nn.Softmax(dim=-1)(scores)     // 각 단어의 가중치 확률분포 구함
         attn_prob = self.dropout(attn_prob)
@@ -35,7 +35,7 @@ class MultiHeadAttention(nn.Module):
         super().__init__()
         self.config = config
 
-        self.W_Q = nn.Linear(self.config.d_hidn, self.config.n_head * self.config.d_head)
+        self.W_Q = nn.Linear(self.config.d_hidn, self.config.n_head * self.config.d_head)     // 보통 임베딩 수 512 → 차원 개수 X 헤드 개수
         self.W_K = nn.Linear(self.config.d_hidn, self.config.n_head * self.config.d_head)
         self.W_V = nn.Linear(self.config.d_hidn, self.config.n_head * self.config.d_head)
         self.scaled_dot_attn = ScaledDotProductAttention(self.config)
@@ -60,7 +60,7 @@ class MultiHeadAttention(nn.Module):
 
 #
 
-### Feed-Forward Network
+### Feed-Forward Network : 각 head가 만들어낸 Self-Attention을 치우치지 않게 균등하게 섞는 역할
 ``` python
 class PoswiseFeedForwardNet(nn.Module):
     def __init__(self, config):
