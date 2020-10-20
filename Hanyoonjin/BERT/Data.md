@@ -13,4 +13,6 @@
 
 #
 
-###### 데이터 수집 중
+###### ※ 데이터 수집 중
+
+[수집한 데이터를 사용하여 학습시킨 모델 결과](https://github.com/BlockchainTechnologyRnDLab/FakeNews/blob/master/Hanyoonjin/BERT/BERT_SNU_fakeNews_Data_Detection.ipynb)
