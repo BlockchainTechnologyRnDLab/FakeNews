@@ -12,7 +12,7 @@
 
 ## 신뢰가능한 인공지능
 
-1. [설명가능한 BERT를 테스트하기 위한 네이버 리뷰 데이터 학습 모델](https://colab.research.google.com/drive/1098WTVpPSD0NQOf3q6hW3cbhgF0zbLrm?usp=sharing)
+1. [설명가능한 BERT를 테스트하기 위한 네이버 리뷰 데이터 학습 모델](https://drive.google.com/drive/folders/1_VUVpnYyLYGB5fmjCA95E461HHkuicy0?usp=sharing)
 
 ## 가짜뉴스 감지 시스템과 신뢰성
 
